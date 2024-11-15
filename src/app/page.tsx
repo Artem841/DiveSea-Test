@@ -3,7 +3,7 @@ import React from 'react';
 export default function ImageComponent() {
   return (
     <div className='bg-mywhite'>
-      {/*Start - 1 Main Block*/}
+      {/*Start - MENU*/}
       <header className='flex flex-row w-[1251px] h-[58px] pt-[45px] ml-[93px]
                          max-mobile:w-[317px] max-mobile:h-[76px] max-mobile:pt-[30px] max-mobile:ml-[28px] max-mobile:flex max-mobile:flex-col'>
 
@@ -13,34 +13,25 @@ export default function ImageComponent() {
         <div className='max-mobile:flex max-mobile:flex-row'>
           {/*Start - Logo with Name*/}
           <div className='max-mobile:w-[141.46px] max-mobile:h-[46.41px] max-mobile:flex max-mobile:flex-row'>
+            {/*Start - Logo*/}
             <div className='bg-logo w-[53px] h-[53px] min-mobile:mt-[3px]
                             max-mobile:w-[46.41px] max-mobile:h-[46.41px]'></div>
-
-            {/*MOBILE-START*/}
+            {/*End - Logo*/}
+            {/* Start - Name */}
             <div className='min-mobile:hidden w-[88px] h-[28px] mt-[9.85px] ml-[7.05px]'>
               <p className='w-[88px] h-[28px] font-[600] text-[21.36px] leading-[27.77px] text-[#000000]'>DiveSea</p>
             </div>
-            {/*MOBILE-END*/}
-
+            {/*End - Name*/}
           </div>
           {/*End - Logo with Name*/}
-
-          {/*MOBILE-START*/}
           {/*Start - Menu*/}
           <div className='min-mobile:hidden w-[31.5px] h-[22.33px] ml-[141.79px] mt-[12px] bg-lines_3'></div>
           {/*End - Menu*/}
-          {/*MOBILE-END*/}
-
         </div>
         {/*End - Logo with Name and Menu*/}
-
-        {/*MOBILE-START*/}
         {/*Start - Line*/}
         <div className='min-mobile:hidden w-[314px] h-[0.5px] ml-[3px] mt-[29.59px] bg-[#CBCBCB]'></div>
         {/*End - Line*/}
-        {/*MOBILE-END*/}
-
-        {/*DESKTOP-START*/}
         {/*Start - Navigation*/}
         <nav className='flex flex-row gap-[53.49px] w-[445.46px] h-[27px] mt-[16px] ml-[57.06px]
                         max-mobile:hidden'>
@@ -65,17 +56,10 @@ export default function ImageComponent() {
           <p className='uppercase w-[151px] h-[25px] text-[16.17px] text-[#FFFFFF] leading-[24.26px] font-[600]'>Connect Wallet</p>
         </button>
         {/*End - Wallet Connection Button*/}
-        {/*DESKTOP-END*/}
-
       </header>
-      {/*End - 1 Main Block*/}
+      {/*End - MENU*/}
 
-      {/*Start - 2 Main Block*/}
-
-      {/*-----------------------------DESKTOP|MOBILE-----------------------------*/}
-
-      {/*Start - 2 Main Block*/}
-
+      {/*Start - HEADER*/}
       <div className='flex flex-row mt-[99px] ml-[97px]
                       max-mobile:w-[400px] max-mobile:h-[666.4px] max-mobile:mt-[74px] max-mobile:ml-[30px] max-mobile:flex-col'>
         {/*Start - 1 Secondary Block*/}
@@ -209,7 +193,9 @@ export default function ImageComponent() {
         </div>
         {/*End - 2 Secondary Block*/}
       </div>
-      {/*End - 2 Main Block*/}
+      {/*End - HEADER*/}
+
+      {/*Start - WEEKLY*/}
     </div>
   )
 }
