@@ -11,7 +11,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'my-white': '#3490dc',
+        'mywhite': '#F9F9F9',
+        'whi': '#FFFFFF',
       },
       screens:{
         'max-mobile': {'max':'375px'},

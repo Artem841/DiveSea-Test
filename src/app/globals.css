@@ -107,3 +107,77 @@
   background-position: center;
   background-size: cover;
 }
+
+.bg-weekly_card_1 {
+  background-image: url(images/Weekly_card_1.jpeg);
+  background-position: center;
+}
+
+.bg-weekly_eth {
+  background-image: url(images/Weekly_ETH.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-weekly_card_2 {
+  background-image: url(images/Weekly_card_2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-weekly_card_3 {
+  background-image: url(images/Weekly_card_3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-weekly_card_4 {
+  background-image: url(images/Weekly_card_4.jpeg);
+  background-position: center;
+}
+
+.bg-weekly_card_5 {
+  background-image: url(images/Weekly_card_5.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-weekly_left_arrow {
+  background-image: url(images/Weekly_left_arrow.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-weekly_right_arrow {
+  background-image: url(images/Weekly_right_arrow.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-points_3 {
+  background-image: url(images/Points_3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-weekly_users_1 {
+  background-image: url(images/Weekly_Users_1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-weekly_users_eth {
+  background-image: url(images/Weekly_Users_ETH.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-weekly_users_2 {
+  background-image: url(images/Weekly_Users_2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
