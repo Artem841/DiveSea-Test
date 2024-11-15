@@ -199,7 +199,7 @@ export default function ImageComponent() {
           <p className='w-[395px] h-[27px] pt-[70px] ml-[522px] font-[600] text-[45px] leading-[26.92px] text-[#C5C5C5]'>Weekly - Top NFT</p>
           {/*End - Main Text*/}
           {/*Start - Cards*/}
-          <div className='w-[1565px] h-[402.28px] bg-black/10 mt-[100px]'>
+          <div className='w-[1565px] h-[402.28px] mt-[100px]'>
             <div className='w-[1565px] h-[402.28px] gap-[13.37px]'>
               <div className='w-[1565px] h-[402.28px] gap-[39.84px] flex flex-row'>
                 {/*Start - First Card*/}
