@@ -213,3 +213,24 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.bg-explore_list {
+  background-image: url(images/Explore_List.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-explore_collection {
+  background-image: url(images/Explore_Collection.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-explore_dollar {
+  background-image: url(images/Explore_Dollar.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

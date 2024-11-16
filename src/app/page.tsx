@@ -580,6 +580,259 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - TOP COLLECTION*/}
+        {/*Start - EXPLORE*/}
+        <div className='w-[1248.09px] h-[1268px] mt-[100px] ml-[96px] flex flex-col'>
+          <p className='w-[466px] h-[27px] font-[600] text-[45px] leading-[26.92px] ml-[391px]'>Explore Marketplace</p>
+          <div className='w-[545.8px] h-[57.72px] ml-[351px] mt-[65px] flex flex-row justify-between'>
+            <button className='w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex justify-center items-center'>
+              <p className='w-[19px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>All</p>
+            </button>
+            <button className='w-[137.04px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] items-center flex flex-row'>
+              <div className='w-[25.19px] h-[25.19px] ml-[16.01px] flex justify-center items-center'>
+                <div className='w-[16.67px] h-[20.99px] bg-explore_list'></div>
+              </div>
+              <p className='w-[71px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>Category</p>
+            </button>
+            <button className='w-[145.88px] h-[56.2px] rounded-[13.26px] gap-[8.84px] border-[2.21px] border-bla flex flex-row items-center'>
+              <div className='w-[25.19px] h-[25.19px] ml-[18.53px] flex justify-center items-center'>
+                <div className='w-[20.99px] h-[20.99px] bg-explore_collection'></div>
+              </div>
+              <p className='w-[79px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>Collection</p>
+            </button>
+            <button className='w-[124.88px] h-[57.72px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex flex-row items-center'>
+              <div className='w-[25.19px] h-[25.19px] ml-[25.93px] bg-explore_dollar'></div>
+              <p className='w-[39px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>Price</p>
+            </button>
+          </div>
+          {/*Start - First Row of Cards*/}
+          <div className='w-[1248px] h-[403.56px] mt-[100.28px]'>
+            <div className='w-[1248px] h-[403.56px] flex flex-row justify-between'>
+              {/*Start - Card 1*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 1*/}
+              {/*Start - Card 2*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 2*/}
+              {/*Start - Card 3*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 3*/}
+              {/*Start - Card 4*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>NuEvey</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.25</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 4*/}
+            </div>
+          </div>
+          {/*End - First Row of Cards*/}
+          {/*Start - Second Row of Cards*/}
+          <div className='w-[1248px] h-[403.56px] mt-[100.28px]'>
+            <div className='w-[1248px] h-[403.56px] flex flex-row-reverse justify-between'>
+              {/*Start - Card 1*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 1*/}
+              {/*Start - Card 2*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 2*/}
+              {/*Start - Card 3*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>NuEvey</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.25</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 3*/}
+              {/*Start - Card 4*/}
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                  </div>
+                </div>
+                <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
+                  <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
+                    <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
+                      <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
+                      <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
+                        <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
+                          <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                        </div>
+                        <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                      </div>
+                    </div>
+                    <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Card 4*/}
+            </div>
+          </div>
+          {/*End - Second Row of Cards*/}
+          <div className='w-[120.79px] h-[40px] ml-[1118.43px] mt-[70px] flex flex-row justify-between items-center'>
+            <p className='w-[90px] h-[40px] font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]'>Explore All</p>
+            <div className='w-[13.96] h-[13.96px] flex flex-row relative'>
+              <div className='w-[13.96px] h-[2.2px] top-[5.9px] absolute bg-top_collection_strelka_2'></div>
+              <div className='w-[7.5px] h-[13.96px] left-[6.98px] absolute bg-top_collection_strelka_1'></div>
+            </div>
+          </div>
+        </div>
+        {/*End - EXPLORE*/}
     </div>
   )
 }
