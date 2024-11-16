@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         'mywhite': '#F9F9F9',
         'whi': '#FFFFFF',
+        'bla': '#141416',
       },
       screens:{
         'max-mobile': {'max':'375px'},

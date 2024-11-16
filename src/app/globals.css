@@ -181,3 +181,35 @@
   background-position: center;
   background-size: cover;
 }
+
+.bg-top_collection_image_1 {
+  background-image: url(images/Top_Collection_image_1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-top_collection_eth {
+  background-image: url(images/Top_Collection_ETH.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-top_collection_image_2 {
+  background-image: url(images/Top_Collection_image_2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-top_collection_strelka_1 {
+  background-image: url(images/Top_Collection_Strelka_1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-top_collection_strelka_2 {
+  background-image: url(images/Top_Collection_Strelka_2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

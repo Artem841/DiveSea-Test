@@ -78,10 +78,10 @@ export default function ImageComponent() {
             {/*Start - Heading with Description*/}
             <div className='w-[567px] h-[252px] mt-[10px]
                             max-mobile:w-[315.36px] max-mobile:h-[159.87px] max-mobile:mt-[5.98px]'>
-              <p className='text-[#141416] w-[567px] h-[180px] text-[75px] font-[600] leading-[90px] tracking-[-3px]
+              <p className='text-bla w-[567px] h-[180px] text-[75px] font-[600] leading-[90px] tracking-[-3px]
                             max-mobile:w-[310.94px] max-mobile:h-[114px] max-mobile:ml-[2.03px] max-mobile:text-[47.4px] max-mobile:font-[600] max-mobile:leading-[56.88px] max-mobile:tracking-[-1.9px] max-mobile:text-center'>Discover And Create NFTs</p>
               <p className='text-[#676767] w-[499px] h-[56px] ml-[2px] mt-[16px] text-[18px] font-[400] leading-[28px] text-justify
-                            max-mobile:w-[315.36px] max-mobile:h-[36px] max-mobile:ml-[0px] max-mobile:mt-[9.87px] max-mobile:text-[11.38px] max-mobile:leading-[17.7px] max-mobile:text-center '>Discover, Create and Sell NFTs On Our NFT Marketplace With Over Thousands Of NFTs And Get a <span className='text-[#141416] font-[600] text-justify
+                            max-mobile:w-[315.36px] max-mobile:h-[36px] max-mobile:ml-[0px] max-mobile:mt-[9.87px] max-mobile:text-[11.38px] max-mobile:leading-[17.7px] max-mobile:text-center '>Discover, Create and Sell NFTs On Our NFT Marketplace With Over Thousands Of NFTs And Get a <span className='text-bla font-[600] text-justify
                             max-mobile:text-center'>$20 bonus</span>.</p>
             </div>
             {/*End - Heading with Description*/}
@@ -107,7 +107,7 @@ export default function ImageComponent() {
                           max-mobile:w-[241.56px] max-mobile:h-[25.61px] max-mobile:mt-[19px] max-mobile:ml-[37px]'>
             <div className='w-[118px] h-[70.92px] flex flex-col
                             max-mobile:w-[98.48px] max-mobile:h-[24.18px]'>
-              <p className='w-[118px] h-[46px] font-[600] text-[36.77px] leading-[45.96px] text-center text-[#141416]
+              <p className='w-[118px] h-[46px] font-[600] text-[36.77px] leading-[45.96px] text-center text-bla
                             max-mobile:hidden'>430K+</p>
               <p className='w-[59px] h-[19px] mt-[5.92px] ml-[0.85px] font-[500] text-[12.26px] leading-[18.39px] text-center text-[#848586]
                             max-mobile:hidden'>Art Works</p>
@@ -115,7 +115,7 @@ export default function ImageComponent() {
             </div>
             <div className='w-[111px] h-[70.92px] ml-[65.28px] flex flex-col
                             max-mobile:w-[76.69px] max-mobile:h-[12.24px] max-mobile:ml-[16.01px] max-mobile:mt-[8.81px]'>
-              <p className='w-[111px] h-[46px] font-[600] text-[36.77px] leading-[45.96px] text-center text-[#141416]
+              <p className='w-[111px] h-[46px] font-[600] text-[36.77px] leading-[45.96px] text-center text-bla
                             max-mobile:hidden'>159K+</p>
               <p className='w-[51px] h-[19px] mt-[5.92px] font-[500] text-[12.26px] leading-[18.39px] text-center text-[#848586]
                             max-mobile:hidden'>Creator</p>
@@ -123,7 +123,7 @@ export default function ImageComponent() {
             </div>
             <div className='w-[94px] h-[70.92] ml-[64.69px] flex flex-col
                             max-mobile:w-[43px] max-mobile:h-[20px] max-mobile:ml-[7.38px] max-mobile:mt-[5.6px]'>
-              <p className='w-[94px] h-[46px] font-[600] text-[36.77px] leading-[45.96px] text-center text-[#141416]
+              <p className='w-[94px] h-[46px] font-[600] text-[36.77px] leading-[45.96px] text-center text-bla
                             max-mobile:hidden'>87K+</p>
               <p className='w-[66px] h-[19px] mt-[5.92px] font-[500] text-[12.26px] leading-[18.39px] text-center text-[#848586]
                             max-mobile:hidden'>Collections</p>
@@ -210,7 +210,7 @@ export default function ImageComponent() {
                     </div>
                   </div>
                   <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-[#141416]'>Sun-Glass</p>
+                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
                     <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
                       <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
                         <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
@@ -221,7 +221,7 @@ export default function ImageComponent() {
                           <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-[#141416] rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
                         <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
                       </button>
                     </div>
@@ -236,7 +236,7 @@ export default function ImageComponent() {
                     </div>
                   </div>
                   <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-[#141416]'>Sun-Glass</p>
+                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
                     <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
                       <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
                         <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
@@ -247,7 +247,7 @@ export default function ImageComponent() {
                           <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-[#141416] rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
                         <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
                       </button>
                     </div>
@@ -262,7 +262,7 @@ export default function ImageComponent() {
                     </div>
                   </div>
                   <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-[#141416]'>Sun-Glass</p>
+                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
                     <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
                       <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
                         <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
@@ -273,7 +273,7 @@ export default function ImageComponent() {
                           <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-[#141416] rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
                         <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
                       </button>
                     </div>
@@ -288,7 +288,7 @@ export default function ImageComponent() {
                     </div>
                   </div>
                   <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-[#141416]'>NuEvey</p>
+                    <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>NuEvey</p>
                     <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
                       <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
                         <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
@@ -299,7 +299,7 @@ export default function ImageComponent() {
                           <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.25</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-[#141416] rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
                         <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
                       </button>
                     </div>
@@ -314,7 +314,7 @@ export default function ImageComponent() {
                     </div>
                   </div>
                   <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-[#141416]'>NuEvey</p>
+                    <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>NuEvey</p>
                     <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
                       <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
                         <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
@@ -325,7 +325,7 @@ export default function ImageComponent() {
                           <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.25</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-[#141416] rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
                         <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
                       </button>
                     </div>
@@ -367,7 +367,7 @@ export default function ImageComponent() {
                   </div>
                 </div>
                 <div className='w-[62px] h-[48.68px] gap-[7.68px] flex flex-col justify-between'>
-                  <p className='w-[62px] h-[22px] font-[500] text-[15.36px] leading-[21.52px] text-[#141416]'>Alex Ca.</p>
+                  <p className='w-[62px] h-[22px] font-[500] text-[15.36px] leading-[21.52px] text-bla'>Alex Ca.</p>
                   <p className='w-[33px] h-[19px] font-[400] text-[12.48px] leading-[18.72px] text-[#64748B]'>Alexy</p>
                 </div>
               </div>
@@ -376,7 +376,7 @@ export default function ImageComponent() {
                   <div className='w-[17.28px] h-[17.28px] flex justify-center items-center'>
                     <div className='w-[9px] h-[14.76px] bg-weekly_users_eth'></div>
                   </div>
-                  <p className='w-[44px] h-[22px] font-[600] text-[15.36px] leading-[21.51px] text-[#141416]'>8,456</p>
+                  <p className='w-[44px] h-[22px] font-[600] text-[15.36px] leading-[21.51px] text-bla'>8,456</p>
                 </div>
                 <p className='w-[55px] h-[20px] font-[400] text-[13.44px] leading-[20.17px] text-[#10C352]'>+23,00%</p>
               </div>
@@ -392,7 +392,7 @@ export default function ImageComponent() {
                   </div>
                 </div>
                 <div className='w-[65px] h-[48.68px] gap-[7.68px] flex flex-col justify-between'>
-                  <p className='w-[65px] h-[22px] font-[600] text-[15.36px] leading-[21.51px] text-[#141416]'>Juliya S.</p>
+                  <p className='w-[65px] h-[22px] font-[600] text-[15.36px] leading-[21.51px] text-bla'>Juliya S.</p>
                   <p className='w-[44px] h-[19px] font-[400] text-[12.48px] leading-[18.72px] text-[#64748B]'>JuliyaS</p>
                 </div>
               </div>
@@ -401,7 +401,7 @@ export default function ImageComponent() {
                   <div className='w-[17.28px] h-[17.28px] flex justify-center items-center'>
                     <div className='w-[9px] h-[14.76px] bg-weekly_users_eth'></div>
                   </div>
-                  <p className='w-[41px] h-[22px] font-[600] text-[15.36px] leading-[21.51px] text-[#141416]'>5,327</p>
+                  <p className='w-[41px] h-[22px] font-[600] text-[15.36px] leading-[21.51px] text-bla'>5,327</p>
                 </div>
                 <p className='w-[49px] h-[20px] font-[400] text-[13.44px] leading-[20.17px] text-[#E23333]'>-32,01%</p>
               </div>
@@ -411,6 +411,175 @@ export default function ImageComponent() {
         </div>
         {/*End - Users*/}
       </div>
+      {/*End - WEEKLY*/}
+      {/*Start - TOP COLLECTION*/}
+        <div className='w-[1247px] h-[896.59px] mt-[120.41px] ml-[98px]'>
+          {/*Start - Main Text*/}
+          <p className='w-[328px] h-[45px] ml-[458.41px] text-bla font-[600] text-[45.04px] leading-[44.75px]'>Top Collection</p>
+          {/*End - Main Text*/}
+          {/*Start - Panel*/}
+          <div className='w-[1243px] h-[27px] gap-[341.04] ml-[2px] mt-[90.59px] flex flex-row justify-between'>
+            <p className='w-[114px] h-[27px] font-[500] leading-[28.6px] text-[#93989A] text-[22px]'>Collection</p>
+            <div className='w-[788.08px] h-[27px] gap-[92.52px] flex flex-row justify-between'>
+              <p className='w-[87px] h-[27px] font-[500] text-[22px] leading-[28.6px] text-[#93989A]'>Volume</p>
+              <p className='w-[66px] h-[27px] font-[500] text-[22px] leading-[28.6px] text-[#93989A]'>24h %</p>
+              <p className='w-[116px] h-[27px] font-[500] text-[22px] leading-[28.6px] text-[#93989A]'>Floor Price</p>
+              <p className='w-[85px] h-[27px] font-[500] text-[22px] leading-[28.6px] text-[#93989A]'>Owners</p>
+              <p className='w-[65px] h-[27px] font-[500] text-[22px] leading-[28.6px] text-[#93989A]'>Items</p>
+            </div>
+          </div>
+          {/*End - Panel*/}
+          {/*Start - Users*/}
+          {/*Start - User 1*/}
+          <div className='w-[1247px] h-[110px] mt-[48px] flex flex-col justify-between'>
+            <div className='w-[1247px] h-[84.04px] flex flex-row items-center justify-between'>
+              <div className='w-[417.32px] h-[84.04px] gap-[23.65px] flex flex-row items-center'>
+                <div className='w-[84.04px] h-[84.04px] rounded-[1750.91px] border-[3.5px] border-whi bg-top_collection_image_1'></div>
+                <div className='w-[113px] h-[74.75px] gap-[1.75px] ml-[23.65px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[39px] font-[500] text-[28.01px] leading-[39.22px] text-bla'>Alex Ca.</p>
+                  <p className='w-[79px] h-[34px] font-[400] text-[22.76px] leading-[34.14px] text-[#64748B]'>By Alex</p>
+                </div>
+              </div>
+              <div className='w-[812.78px] h-[34px] flex flex-row'>
+                <div className='w-[105.02px] h-[34px] gap-[6.76px]'>
+                  <div className='w-[105.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <div className='w-[70px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>8,456</div>
+                  </div>
+                </div>
+                <p className='w-[109px] h-[32px] font-[500] text-[24.51px] leading-[31.87px] text-[#10C352] ml-[80.83px]'>+ 27.78%</p>
+                <div className='w-[72.02px] h-[34px] gap-[6.76px] ml-[63.33px]'>
+                  <div className='w-[72.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <p className='w-[37px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>3,5</p>
+                  </div>
+                </div>
+                <p className='w-[49px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[145.94px]'>2.2К</p>
+                <p className='w-[46px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[140.23px]'>500</p>
+              </div>
+            </div>
+            <div className='w-[1233.38px] h-[1.69px] bg-[#EBE9E9]'></div>
+          </div>
+          {/*End - User 1*/}
+          {/*Start - User 2*/}
+          <div className='w-[1247px] h-[110px] mt-[41px] flex flex-col justify-between'>
+            <div className='w-[1247px] h-[84.04px] flex flex-row items-center justify-between'>
+              <div className='w-[417.32px] h-[84.04px] gap-[23.65px] flex flex-row items-center'>
+                <div className='w-[84.04px] h-[84.04px] rounded-[1750.91px] border-[3.5px] border-whi bg-top_collection_image_2'></div>
+                <div className='w-[113px] h-[74.75px] gap-[1.75px] ml-[23.65px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[39px] font-[500] text-[28.01px] leading-[39.22px] text-bla'>Alex Ca.</p>
+                  <p className='w-[79px] h-[34px] font-[400] text-[22.76px] leading-[34.14px] text-[#64748B]'>By Alex</p>
+                </div>
+              </div>
+              <div className='w-[812.78px] h-[34px] flex flex-row'>
+                <div className='w-[105.02px] h-[34px] gap-[6.76px]'>
+                  <div className='w-[105.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <div className='w-[70px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>4,780</div>
+                  </div>
+                </div>
+                <p className='w-[109px] h-[32px] font-[500] text-[24.51px] leading-[31.87px] text-[#10C352] ml-[80.83px]'>+ 27.78%</p>
+                <div className='w-[72.02px] h-[34px] gap-[6.76px] ml-[63.33px]'>
+                  <div className='w-[72.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <p className='w-[37px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>7,9</p>
+                  </div>
+                </div>
+                <p className='w-[49px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[145.94px]'>3.4К</p>
+                <p className='w-[46px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[140.23px]'>900</p>
+              </div>
+            </div>
+            <div className='w-[1233.38px] h-[1.69px] bg-[#EBE9E9]'></div>
+          </div>
+          {/*End - User 2*/}
+          {/*Start - User 3*/}
+          <div className='w-[1247px] h-[110px] mt-[40px] flex flex-col justify-between'>
+            <div className='w-[1247px] h-[84.04px] flex flex-row items-center justify-between'>
+              <div className='w-[417.32px] h-[84.04px] gap-[23.65px] flex flex-row items-center'>
+                <div className='w-[84.04px] h-[84.04px] rounded-[1750.91px] border-[3.5px] border-whi bg-top_collection_image_1'></div>
+                <div className='w-[113px] h-[74.75px] gap-[1.75px] ml-[23.65px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[39px] font-[500] text-[28.01px] leading-[39.22px] text-bla'>Alex Ca.</p>
+                  <p className='w-[79px] h-[34px] font-[400] text-[22.76px] leading-[34.14px] text-[#64748B]'>By Alex</p>
+                </div>
+              </div>
+              <div className='w-[812.78px] h-[34px] flex flex-row'>
+                <div className='w-[105.02px] h-[34px] gap-[6.76px]'>
+                  <div className='w-[105.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <div className='w-[70px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>8,456</div>
+                  </div>
+                </div>
+                <p className='w-[109px] h-[32px] font-[500] text-[24.51px] leading-[31.87px] text-[#10C352] ml-[80.83px]'>+ 27.78%</p>
+                <div className='w-[72.02px] h-[34px] gap-[6.76px] ml-[63.33px]'>
+                  <div className='w-[72.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <p className='w-[37px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>3,5</p>
+                  </div>
+                </div>
+                <p className='w-[49px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[145.94px]'>2.2К</p>
+                <p className='w-[46px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[140.23px]'>500</p>
+              </div>
+            </div>
+            <div className='w-[1233.38px] h-[1.69px] bg-[#EBE9E9]'></div>
+          </div>
+          {/*End - User 3*/}
+          {/*Start - User 4*/}
+          <div className='w-[1247px] h-[110px] mt-[40px] flex flex-col justify-between'>
+            <div className='w-[1247px] h-[84.04px] flex flex-row items-center justify-between'>
+              <div className='w-[417.32px] h-[84.04px] gap-[23.65px] flex flex-row items-center'>
+                <div className='w-[84.04px] h-[84.04px] rounded-[1750.91px] border-[3.5px] border-whi bg-top_collection_image_2'></div>
+                <div className='w-[113px] h-[74.75px] gap-[1.75px] ml-[23.65px] flex flex-col justify-between'>
+                  <p className='w-[113px] h-[39px] font-[500] text-[28.01px] leading-[39.22px] text-bla'>Alex Ca.</p>
+                  <p className='w-[79px] h-[34px] font-[400] text-[22.76px] leading-[34.14px] text-[#64748B]'>By Alex</p>
+                </div>
+              </div>
+              <div className='w-[812.78px] h-[34px] flex flex-row'>
+                <div className='w-[105.02px] h-[34px] gap-[6.76px]'>
+                  <div className='w-[105.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <div className='w-[70px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>8,456</div>
+                  </div>
+                </div>
+                <p className='w-[109px] h-[32px] font-[500] text-[24.51px] leading-[31.87px] text-[#10C352] ml-[80.83px]'>+ 27.78%</p>
+                <div className='w-[72.02px] h-[34px] gap-[6.76px] ml-[63.33px]'>
+                  <div className='w-[72.02px] h-[34px] gap-[3.5px] flex flex-row justify-between items-center'>
+                    <div className='w-[31.52px] h-[31.52px] flex justify-center items-center'>
+                      <div className='w-[16.41px] h-[26.92px] bg-top_collection_eth'></div>
+                    </div>
+                    <p className='w-[37px] h-[34px] font-[600] text-[24.51px] leading-[34.32px] text-bla'>3,5</p>
+                  </div>
+                </div>
+                <p className='w-[49px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[145.94px]'>2.2К</p>
+                <p className='w-[46px] h-[31px] font-[500] text-[23.65px] leading-[30.75px] text-[#010101] ml-[140.23px]'>500</p>
+              </div>
+            </div>
+            <div className='w-[1233.38px] h-[1.69px] bg-[#EBE9E9]'></div>
+          </div>
+          {/*End - User 4*/}
+          {/*End - Users*/}
+          <div className='w-[120.79px] h-[40px] ml-[1117px] mt-[85px] flex flex-row justify-between items-center'>
+            <p className='w-[90px] h-[40px] font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]'>Explore All</p>
+            <div className='w-[13.96] h-[13.96px] flex flex-row relative'>
+              <div className='w-[13.96px] h-[2.2px] top-[5.9px] absolute bg-top_collection_strelka_2'></div>
+              <div className='w-[7.5px] h-[13.96px] left-[6.98px] absolute bg-top_collection_strelka_1'></div>
+            </div>
+          </div>
+        </div>
+        {/*End - TOP COLLECTION*/}
     </div>
   )
 }
