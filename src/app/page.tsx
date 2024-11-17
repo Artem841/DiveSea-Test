@@ -1101,6 +1101,32 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - BANNER*/}
+        {/*Start - FOOTER*/}
+        <div className='w-[1440px] h-[345px] mt-[160px] bg-bla flex flex-col'>
+          <div className='w-[1248px] h-[65px] mt-[92px] ml-[96px] flex flex-row justify-between items-center'>
+            <div className='w-[198.88px] h-[65px] flex flex-row justify-between items-center'>
+              <div className='w-[65px] h-[65px] bg-footer_logo'></div>
+              <p className='font-[600] text-[29.92px] leading-[38.9px] text-whi'>DiveSea</p>
+            </div>
+            <div className='w-[635px] h-[27px] flex flex-row justify-between'>
+              <p className='font-[500] text-[17.83px] leading-[26.74px] text-[#B9B9B9]'>Privacy Policy</p>
+              <p className='font-[500] text-[17.83px] leading-[26.74px] text-[#B9B9B9]'>Term & Conditions</p>
+              <p className='font-[500] text-[17.83px] leading-[26.74px] text-[#B9B9B9]'>About Us</p>
+              <p className='font-[500] text-[17.83px] leading-[26.74px] text-[#B9B9B9]'>Contact</p>
+            </div>
+          </div>
+          <div className='w-[1246px] h-[1px] bg-[#818181]/25 mt-[25px] ml-[97px]'></div>
+          <div className='w-[1237.62px] h-[25px] flex flex-row mt-[57px] ml-[103px] justify-between items-center'>
+            <p className='font-[500] text-[17px] leading-[25px] text-[#999999]'>© 2023 EATLY All Rights Reserved.</p>
+            <div className='w-[234.46px] h-[21.42px] flex flex-row justify-between'>
+              <div className='w-[21.34px] h-[21.42px] bg-footer_insta'></div>
+              <div className='w-[21.34px] h-[20.36px] bg-footer_in'></div>
+              <div className='w-[9.88px] h-[21.34px] bg-footer_facebook'></div>
+              <div className='w-[21.34px] h-[17.37px] bg-footer_twitter'></div>
+            </div>
+          </div>
+        </div>
+        {/*End - FOOTER*/}
     </div>
   )
 }

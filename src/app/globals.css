@@ -284,3 +284,37 @@
   opacity: 70%;
   filter: blur(52.87);
 }
+
+.bg-footer_logo {
+  background-image: url('images/Footer_Wave.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-footer_insta {
+  background-image: url(images/Footer_Insta.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-footer_in {
+  background-image: url(images/Footer_In.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-footer_facebook {
+  background-image: url(images/Footer_Facebook.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-footer_twitter {
+  background-image: url(images/Footer_Twitter.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
