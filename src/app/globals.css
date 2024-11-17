@@ -234,3 +234,45 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.bg-unleash_tick {
+  background-image: url(images/Unleash_Tick.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-unleash_arrow {
+  background-image: url(images/Unleash_Arrow.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-unleash_verified {
+  background-image: url(images/Unleash_Verified.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-unleash_verified_image_2 {
+  background-image: url(images/Unleash_Verified_image_2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-unleash_verified_image_3 {
+  background-image: url(images/Unleash_Verified_image_3.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-unleash_points {
+  background-image: url(images/Unleash_Points.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

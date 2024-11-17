@@ -203,9 +203,9 @@ export default function ImageComponent() {
             <div className='w-[1565px] h-[402.28px] gap-[13.37px]'>
               <div className='w-[1565px] h-[402.28px] gap-[39.84px] flex flex-row'>
                 {/*Start - First Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                   <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                       <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                     </div>
                   </div>
@@ -229,9 +229,9 @@ export default function ImageComponent() {
                 </div>
                 {/*End - First Card*/}
                 {/*Start - Second Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                   <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                       <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                     </div>
                   </div>
@@ -255,9 +255,9 @@ export default function ImageComponent() {
                 </div>
                 {/*End - Second Card*/}
                 {/*Start - Third Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                   <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                       <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                     </div>
                   </div>
@@ -281,9 +281,9 @@ export default function ImageComponent() {
                 </div>
                 {/*End - Third Card*/}
                 {/*Start - Fourth Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                   <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                       <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
                     </div>
                   </div>
@@ -307,9 +307,9 @@ export default function ImageComponent() {
                 </div>
                 {/*End - Fourth Card*/}
                 {/*Start - Fifth Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                   <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_5'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                       <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
                     </div>
                   </div>
@@ -337,7 +337,7 @@ export default function ImageComponent() {
           </div>
           {/*End - Cards*/}
           {/*Start - Arrows*/}
-          <div className='w-[166px] h-[68.99px] ml-[637px] mt-[114.72px] bg-[#FCFCFD] rounded-[17.25px] gap-[10.78px] shadow-[0_43.12_34.49_-25.87_rgba(15,15,15,0.12)] flex justify-center items-center'>
+          <div className='w-[166px] h-[68.99px] ml-[637px] mt-[114.72px] bg-[#FCFCFD] rounded-[17.25px] gap-[10.78px] shadow-[0_43.12px_34.49px_-25.87px_rgba(15,15,15,0.12)] flex justify-center items-center'>
             <div className='w-[122.88px] h-[25.87px] gap-[34.49px] flex flex-row'>
               <div className='w-[25.87px] h-[25.87px] flex items-center justify-center'>
                 <div className='w-[15.09px] h-[9.7px] bg-weekly_left_arrow'></div>
@@ -351,10 +351,10 @@ export default function ImageComponent() {
           {/*End - Arrows*/}
         </div>
         {/*Start - Users*/}
-        <div className='w-[365px] h-[246px] bg-whi left-[976px] top-[743px] border-[1px] border-[#EDF2F7] rounded-[16px] shadow-[10_10_50_0_rgba(20,20,22,0.1)] absolute flex flex-col justify-between'>
+        <div className='w-[365px] h-[246px] bg-whi left-[976px] top-[743px] border-[1px] border-[#EDF2F7] rounded-[16px] shadow-[10px_10px_50px_0_rgba(20,20,22,0.1)] absolute flex flex-col justify-between'>
           <div className='w-[363px] h-[54.37px] flex flex-row'>
             <p className='w-[161px] h-[28px] ml-[24px] mt-[26.37px] font-[600] text-[21px] leading-[28.35px] text-[#1A202C]'>Recent Viewed</p>
-            <div className='w-[24px] h-[10.7px] ml-[132px] mt-[35.27px] flex justify-center items-center bg-points_3'></div>
+            <div className='w-[24px] h-[10.7px] ml-[132px] mt-[35.27px] bg-points_3'></div>
           </div>
           <div className='w-[363px] h-[164px]'>
             {/*Start - Alex Ca.*/}
@@ -386,7 +386,7 @@ export default function ImageComponent() {
             <div className='w-[314px] h-[61.46px] ml-[27px] mt-[20px] flex flex-row justify-between items-center'>
               <div className='w-[132.22px] h-[48.68px] gap-[15.36px] flex flex-row justify-between items-center'>
                 <div className='w-[51.85px] h-[48.01px] relative'>
-                  <div className='w-[46.09] h-[46.09px] rounded-[960.24px] border-[1.92px] top-[0.33px] border-whi bg-weekly_users_2 absolute'></div>
+                  <div className='w-[46.09px] h-[46.09px] rounded-[960.24px] border-[1.92px] top-[0.33px] border-whi bg-weekly_users_2 absolute'></div>
                   <div className='w-[21.13px] h-[21.13px] bg-whi rounded-[100%] absolute top-[26.89px] left-[30.73px] flex justify-center items-center'>
                     <p className='w-[7px] h-[17px] font-[700] text-[11.52px] leading-[17.28px]'>2</p>
                   </div>
@@ -608,9 +608,9 @@ export default function ImageComponent() {
           <div className='w-[1248px] h-[403.56px] mt-[100.28px]'>
             <div className='w-[1248px] h-[403.56px] flex flex-row justify-between'>
               {/*Start - Card 1*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                   </div>
                 </div>
@@ -634,9 +634,9 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 1*/}
               {/*Start - Card 2*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                   </div>
                 </div>
@@ -660,9 +660,9 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 2*/}
               {/*Start - Card 3*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                   </div>
                 </div>
@@ -686,9 +686,9 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 3*/}
               {/*Start - Card 4*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
                   </div>
                 </div>
@@ -718,9 +718,9 @@ export default function ImageComponent() {
           <div className='w-[1248px] h-[403.56px] mt-[100.28px]'>
             <div className='w-[1248px] h-[403.56px] flex flex-row-reverse justify-between'>
               {/*Start - Card 1*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                   </div>
                 </div>
@@ -744,9 +744,9 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 1*/}
               {/*Start - Card 2*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                   </div>
                 </div>
@@ -770,9 +770,9 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 2*/}
               {/*Start - Card 3*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
                   </div>
                 </div>
@@ -796,9 +796,9 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 3*/}
               {/*Start - Card 4*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82_11.76_58.81_0_rgba(199,199,199,0.6)]'>
+              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
-                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71_14.12_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
+                  <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
                   </div>
                 </div>
@@ -833,6 +833,254 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - EXPLORE*/}
+        {/*Start - UNLEASH*/}
+        <div className='w-[1402.65px] h-[688.08px] flex flex-col justify-between ml-[96px] mt-[103px]'>
+          <div className='w-[1248px] h-[0.71px] bg-[#CBCBCB]'></div>
+          <div className='w-[1402.65px] h-[613.08px] flex flex-row'>
+            {/*Start - Content*/}
+            <div className='w-[461px] h-[535px] ml-[3px] mt-[41px]'>
+              <div className='w-[461px] h-[109px] flex flex-col'>
+                <p className='font-[600] text-[45px] leading-[54.4px] text-[#C4C4C4]'>Just Unleash -</p>
+                <p className='font-[600] text-[45px] leading-[54.4px] text-[#18181B]'>Your Innner Collector</p>
+              </div>
+              <div className='w-[297px] h-[252px] mt-[45px] flex flex-col justify-between'>
+                <div className='w-[250] h-[32px] flex flex-row items-center'>
+                  <div className='w-[20px] h-[20px] bg-unleash_tick'></div>
+                  <p className='ml-[12px] font-[400] text-[16px] leading-[32px] text-[#12141D]/70'>Best Seller All Around World</p>
+                </div>
+                <div className='w-[265px] h-[32px] flex flex-row items-center'>
+                  <div className='w-[20px] h-[20px] bg-unleash_tick'></div>
+                  <p className='ml-[12px] font-[400] text-[16px] leading-[32px] text-[#12141D]/70'>$2M+ Transections Every Day</p>
+                </div>
+                <div className='w-[195px] h-[32px] flex flex-row items-center'>
+                  <div className='w-[20px] h-[20px] bg-unleash_tick'></div>
+                  <p className='ml-[12px] font-[400] text-[16px] leading-[32px] text-[#12141D]/70'>Secure Transactions</p>
+                </div>
+                <div className='w-[297px] h-[32px] flex flex-row items-center'>
+                  <div className='w-[20px] h-[20px] bg-unleash_tick'></div>
+                  <p className='ml-[12px] font-[400] text-[16px] leading-[32px] text-[#12141D]/70'>Exclusive Collections From Sellers</p>
+                </div>
+                <div className='w-[220px] h-[32px] flex flex-row items-center'>
+                  <div className='w-[20px] h-[20px] bg-unleash_tick'></div>
+                  <p className='ml-[12px] font-[400] text-[16px] leading-[32px] text-[#12141D]/70'>Easy Buying and Selling</p>
+                </div>
+                <div className='w-[198px] h-[32px] flex flex-row items-center'>
+                  <div className='w-[20px] h-[20px] bg-unleash_tick'></div>
+                  <p className='ml-[12px] font-[400] text-[16px] leading-[32px] text-[#12141D]/70'>Join Our Community</p>
+                </div>
+              </div>
+              <button className='w-[164px] h-[59px] rounded-[11.99px] bg-[#000000] flex justify-center items-center mt-[70px]'>
+                <div className='w-[128.51px] h-[22.14px] flex flex-row items-center justify-between'>
+                  <p className='w-[95px] h-[19px] text-whi font-[500] text-[14.76px] leading-[18.45px]'>Explore More</p>
+                  <div className='w-[22.14px] h-[22.14px] bg-unleash_arrow'></div>
+                </div>
+              </button>
+            </div>
+            {/*End - Content*/}
+            {/*Start - Illustration*/}
+            <div className='w-[836.65px] h-[613.08px] ml-[102px] relative'>
+              {/*Start - Background Block*/}
+              <div className='w-[399.65px] h-[173px] bg-unleash_points absolute top-[410px] left-[437px]'></div>
+              {/*End - Background Block*/}
+              {/*Start - Block 1*/}
+              <div className='w-[322.1px] h-[510.06px] rounded-[14.12px] bg-whi absolute shadow-[8.82px_8.82px_44.12px_0_rgba(20,20,22,0.1) left-[179px] top-[38.21px] flex flex-col'>
+                <div className='w-[322.1px h-[51.47px] flex flex-row'>
+                  <p className='w-[110px] h-[25px] font-[600] text-[18.53px] text-[#1A202C] ml-[21.18px] mt-[26.47px] leading-[25.02px]'>Best Sellers</p>
+                  <div className='w-[21.18px] h-[21.18px] flex justify-center items-center mt-[28.24px] ml-[148.56px]'>
+                    <div className='w-[14.12px] h-[1.76px] bg-points_3'></div>
+                  </div>
+                </div>
+                <div className='w-[284.7px] h-[409.33px] mt-[23.54px] ml-[17.31px] flex flex-col justify-between'>
+                  <div className='w-[284.7px] h-[55.72px] gap-[17.46px] flex flex-row items-center justify-between'>
+                    <div className='w-[163.68px] h-[55.72px] gap-[10.45px] flex flex-row items-center justify-between'>
+                      <div className='w-[55.72px] h-[55.72px] relative'>
+                        <div className='w-[48.76px] h-[48.76px] rounded-[41.79px] bg-image_2 absolute top-[3.48px] left-[3.48px]'></div>
+                        <div className='w-[20.9px] h-[20.9px] rounded-[100%] bg-[#23262F] absolute left-[34.83px] flex justify-center items-center'>
+                          <p className='font-[600] text-[10.45px] leading-[17.41px] text-whi'>1</p>
+                        </div>
+                      </div>
+                      <div className='w-[97.51px] h-[39px] flex flex-col justify-between'>
+                        <p className='w-[50.48px] h-[21px] font-[500] text-[12.19px] leading-[20.9px] text-[#23262F]'>Alex Ca.</p>
+                        <p className='w-[38px] h-[18px] font-[400] text-[10.45px] leading-[17.41px] text-[#777E90]'>@Alexy</p>
+                      </div>
+                    </div>
+                    <button className='w-[65.86px] h-[27.93px] rounded-[6.97px] border-[1.74px] border-[#E6E8EC] gap-[10.45px]'>
+                      <p className='font-[700] text-[12.19px] leading-[13.93px] text-[#23262F]'>Follow</p>
+                    </button>
+                  </div>
+                  <div className='w-[284.7px] h-[55.72px] gap-[17.46px] flex flex-row items-center justify-between'>
+                    <div className='w-[163.68px] h-[55.72px] gap-[10.45px] flex flex-row items-center justify-between'>
+                      <div className='w-[55.72px] h-[55.72px] relative'>
+                        <div className='w-[48.76px] h-[48.76px] rounded-[41.79px] bg-weekly_card_5 absolute top-[3.48px] left-[3.48px]'></div>
+                        <div className='w-[20.9px] h-[20.9px] rounded-[100%] bg-[#23262F] absolute left-[34.83px] flex justify-center items-center'>
+                          <p className='font-[600] text-[10.45px] leading-[17.41px] text-whi'>2</p>
+                        </div>
+                      </div>
+                      <div className='w-[97.51px] h-[39px] flex flex-col justify-between'>
+                        <p className='w-[59.48px] h-[21px] font-[500] text-[12.19px] leading-[20.9px] text-[#23262F]'>Juliya Sa.</p>
+                        <p className='w-[48px] h-[18px] font-[400] text-[10.45px] leading-[17.41px] text-[#777E90]'>@JuliyaS</p>
+                      </div>
+                    </div>
+                    <button className='w-[65.86px] h-[27.93px] rounded-[6.97px] border-[1.74px] border-[#E6E8EC] gap-[10.45px]'>
+                      <p className='font-[700] text-[12.19px] leading-[13.93px] text-[#23262F]'>Follow</p>
+                    </button>
+                  </div>
+                  <div className='w-[284.7px] h-[55.72px] gap-[17.46px] flex flex-row items-center justify-between'>
+                    <div className='w-[163.68px] h-[55.72px] gap-[10.45px] flex flex-row items-center justify-between'>
+                      <div className='w-[55.72px] h-[55.72px] relative'>
+                        <div className='w-[48.76px] h-[48.76px] rounded-[41.79px] bg-image_1 absolute top-[3.48px] left-[3.48px]'></div>
+                        <div className='w-[20.9px] h-[20.9px] rounded-[100%] bg-[#23262F] absolute left-[34.83px] flex justify-center items-center'>
+                          <p className='font-[600] text-[10.45px] leading-[17.41px] text-whi'>2</p>
+                        </div>
+                      </div>
+                      <div className='w-[97.51px] h-[39px] flex flex-col justify-between'>
+                        <p className='w-[59.48px] h-[21px] font-[500] text-[12.19px] leading-[20.9px] text-[#23262F]'>Juliya Sa.</p>
+                        <p className='w-[48px] h-[18px] font-[400] text-[10.45px] leading-[17.41px] text-[#777E90]'>@JuliyaS</p>
+                      </div>
+                    </div>
+                    <button className='w-[65.86px] h-[27.93px] rounded-[6.97px] border-[1.74px] border-[#E6E8EC] gap-[10.45px]'>
+                      <p className='font-[700] text-[12.19px] leading-[13.93px] text-[#23262F]'>Follow</p>
+                    </button>
+                  </div>
+                  <div className='w-[284.7px] h-[55.72px] gap-[17.46px] flex flex-row items-center justify-between'>
+                    <div className='w-[163.68px] h-[55.72px] gap-[10.45px] flex flex-row items-center justify-between'>
+                      <div className='w-[55.72px] h-[55.72px] relative'>
+                        <div className='w-[48.76px] h-[48.76px] rounded-[41.79px] bg-weekly_card_3 absolute top-[3.48px] left-[3.48px]'></div>
+                        <div className='w-[20.9px] h-[20.9px] rounded-[100%] bg-[#23262F] absolute left-[34.83px] flex justify-center items-center'>
+                          <p className='font-[600] text-[10.45px] leading-[17.41px] text-whi'>3</p>
+                        </div>
+                      </div>
+                      <div className='w-[97.51px] h-[39px] flex flex-col justify-between'>
+                        <p className='w-[61.48px] h-[21px] font-[500] text-[12.19px] leading-[20.9px] text-[#23262F]'>Trevor Pu.</p>
+                        <p className='w-[50px] h-[18px] font-[400] text-[10.45px] leading-[17.41px] text-[#777E90]'>@TrevorP</p>
+                      </div>
+                    </div>
+                    <button className='w-[79.86px] h-[27.93px] rounded-[6.97px] border-[1.74px] border-[#E6E8EC] bg-[#E6E8EC] gap-[10.45px]'>
+                      <p className='font-[700] text-[12.19px] leading-[13.93px] text-[#23262F]'>Unfollow</p>
+                    </button>
+                  </div>
+                  <div className='w-[284.7px] h-[55.72px] gap-[17.46px] flex flex-row items-center justify-between'>
+                    <div className='w-[163.68px] h-[55.72px] gap-[10.45px] flex flex-row items-center justify-between'>
+                      <div className='w-[55.72px] h-[55.72px] relative'>
+                        <div className='w-[48.76px] h-[48.76px] rounded-[41.79px] bg-unleash_verified_image_2 absolute top-[3.48px] left-[3.48px]'></div>
+                        <div className='w-[20.9px] h-[20.9px] rounded-[100%] bg-[#23262F] absolute left-[34.83px] flex justify-center items-center'>
+                          <p className='font-[600] text-[10.45px] leading-[17.41px] text-whi'>1</p>
+                        </div>
+                      </div>
+                      <div className='w-[97.51px] h-[39px] flex flex-col justify-between'>
+                        <p className='w-[59.48px] h-[21px] font-[500] text-[12.19px] leading-[20.9px] text-[#23262F]'>Juliya Sa.</p>
+                        <p className='w-[48px] h-[18px] font-[400] text-[10.45px] leading-[17.41px] text-[#777E90]'>@JuliyaS</p>
+                      </div>
+                    </div>
+                    <button className='w-[65.86px] h-[27.93px] rounded-[6.97px] border-[1.74px] border-[#E6E8EC] gap-[10.45px]'>
+                      <p className='font-[700] text-[12.19px] leading-[13.93px] text-[#23262F]'>Follow</p>
+                    </button>
+                  </div>
+                  <div className='w-[284.7px] h-[55.72px] gap-[17.46px] flex flex-row items-center justify-between'>
+                    <div className='w-[163.68px] h-[55.72px] gap-[10.45px] flex flex-row items-center justify-between'>
+                      <div className='w-[55.72px] h-[55.72px] relative'>
+                        <div className='w-[48.76px] h-[48.76px] rounded-[41.79px] bg-unleash_verified_image_3 absolute top-[3.48px] left-[3.48px]'></div>
+                        <div className='w-[20.9px] h-[20.9px] rounded-[100%] bg-[#23262F] absolute left-[34.83px] flex justify-center items-center'>
+                          <p className='font-[600] text-[10.45px] leading-[17.41px] text-whi'>1</p>
+                        </div>
+                      </div>
+                      <div className='w-[97.51px] h-[39px] flex flex-col justify-between'>
+                        <p className='w-[61.48px] h-[21px] font-[500] text-[12.19px] leading-[20.9px] text-[#23262F]'>Trevor Pu.</p>
+                        <p className='w-[50px] h-[18px] font-[400] text-[10.45px] leading-[17.41px] text-[#777E90]'>@TrevorP</p>
+                      </div>
+                    </div>
+                    <button className='w-[79.86px] h-[27.93px] rounded-[6.97px] border-[1.74px] border-[#E6E8EC] bg-[#E6E8EC] gap-[10.45px]'>
+                      <p className='font-[700] text-[12.19px] leading-[13.93px] text-[#23262F]'>Unfollow</p>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*End - Block 1*/}
+              {/*Start - Block 2*/}
+              <div className='w-[325.64px] h-[83.79px] rounded-[13.29px] p-[11.39px] bg-[#FCFCFD] shadow-[0_18.99px_28.48px_0_rgba(70,70,70,0.1)] flex flex-row justify-between absolute left-[356px]'>
+                <div className='w-[227.85px] h-[61px] gap-[11.39px] flex flex-row justify-between'>
+                  <div className='w-[64.56px] h-[45.57px] gap-[11.39px] flex flex-row items-center'>
+                    <div className='w-[7.6px] h-[7.6px] rounded-[100%] bg-bla'></div>
+                    <div className='w-[45.57px] h-[45.57px] relative'>
+                      <div className='w-[39.87px] h-[39.87px] rounded-[34.18px] top-[2.85px] left-[2.85px] absolute bg-image_1'></div>
+                      <div className='w-[17.09px] h-[17.09px] left-[28.48px] bg-unleash_verified absolute'></div>
+                    </div>
+                  </div>
+                  <div className='w-[151.9px] h-[61px] flex flex-col'>
+                    <div className='w-[151.9px] h-[23px] gap-[5.7px] flex flex-row'>
+                      <p className='w-[54px] h-[23px] font-[500] text-[13.29px] leading-[22.79px] text-[#949494]'>New bid</p>
+                      <p className='w-[57px] h-[23px] font-[500] text-[13.29px] leading-[22.79px] text-bla'>Rotation</p>
+                    </div>
+                    <div className='w-[151.9px] h-[38px] flex flex-col justify-between'>
+                      <p className='font-[600] text-[11.39px] leading-[18.99px] text-bla'>0.002 ETH</p>
+                      <p className='font-[400] text-[11.39px] leading-[18.99px] text-[#949494]'>6 Oct 2022, 11:44 PM</p>
+                    </div>
+                  </div>
+                </div>
+                <div className='w-[60.76px] h-[60.76px] rounded-[10.44px] bg-image_1'></div>
+              </div>
+              {/*End - Block 2*/}
+              {/*Start - Block 3*/}
+              <div className='w-[322px] h-[217.08px] bg-whi top-[396px] border-[1px] border-[#EDF2F7] rounded-[14.12px] shadow-[8.82px_8.82px_44.12px_0_rgba(20,20,22,0.1)] absolute flex flex-col justify-between'>
+                <div className='w-[322px] h-[48.27px] flex flex-row'>
+                  <p className='w-[142px] h-[25px] ml-[21.18px] mt-[23.27px] font-[600] text-[18.53px] leading-[25.02px] text-[#1A202C]'>Recent Viewed</p>
+                  <div className='w-[21.18px] h-[9.44px] ml-[116.56px] mt-[31.12px] bg-points_3'></div>
+                </div>
+                <div className='w-[363px] h-[144.72px]'>
+                  <div className='w-[277.09px] h-[54.23px] ml-[23.83px] flex flex-row justify-between items-center'>
+                    <div className='w-[114.32px] h-[42.78px] gap-[13.56px] flex flex-row justify-between items-center'>
+                      <div className='w-[45.76px] h-[42.37px] relative'>
+                        <div className='w-[40.67] h-[40.67px] rounded-[847.37px] border-[1.69px] top-[0.21px] border-whi bg-weekly_users_1 absolute'></div>
+                       <div className='w-[18.64px] h-[18.64px] bg-whi rounded-[100%] absolute top-[23.73px] left-[27.12px] flex justify-center items-center'>
+                         <p className='w-[4px] h-[15px] font-[700] text-[10.17px] leading-[15.25px]'>1</p>
+                       </div>
+                     </div>
+                     <div className='w-[55px] h-[42.78px] gap-[6.78px] flex flex-col justify-between'>
+                        <p className='w-[55px] h-[19px] font-[500] text-[13.56px] leading-[18.98px] text-bla'>Alex Ca.</p>
+                       <p className='w-[29px] h-[17px] font-[400] text-[11.02px] leading-[16.52px] text-[#64748B]'>Alexy</p>
+                      </div>
+                    </div>
+                    <div className='w-[55.95px] h-[43.78px] gap-[6.78px] flex flex-col justify-between items-end'>
+                      <div className='w-[55.95px] h-[19px] gap-[1.69px] flex flex-row justify-between items-center'>
+                        <div className='w-[15.25px] h-[15.25px] flex justify-center items-center'>
+                          <div className='w-[7.94px] h-[13.03px] bg-weekly_users_eth'></div>
+                        </div>
+                      <p className='w-[39px] h-[19px] font-[600] text-[13.56px] leading-[18.98px] text-bla'>8,456</p>
+                      </div>
+                      <p className='w-[49px] h-[18px] font-[400] text-[11.86px] leading-[17.79px] text-[#10C352]'>+23,00%</p>
+                    </div>
+                  </div>
+                  <div className='w-[277.09px] h-[54.23px] ml-[23.83px] mt-[17.65px] flex flex-row justify-between items-center'>
+                    <div className='w-[116.32px] h-[42.78px] gap-[13.56px] flex flex-row justify-between items-center'>
+                      <div className='w-[45.76px] h-[42.37px] relative'>
+                        <div className='w-[40.67px] h-[40.67px] rounded-[847.37px] border-[1.69px] top-[0.2px] border-whi bg-weekly_users_2 absolute'></div>
+                        <div className='w-[18.64px] h-[18.64px] bg-whi rounded-[100%] absolute top-[23.93px] left-[27.12px] flex justify-center items-center'>
+                          <p className='w-[6px] h-[15px] font-[700] text-[10.17px] leading-[15.25px]'>2</p>
+                        </div>
+                      </div>
+                      <div className='w-[57px] h-[42.78px] gap-[6.78px] flex flex-col justify-between'>
+                        <p className='w-[57px] h-[19px] font-[600] text-[13.56px] leading-[18.98px] text-bla'>Juliya S.</p>
+                        <p className='w-[39px] h-[17px] font-[400] text-[11.02px] leading-[16.52px] text-[#64748B]'>JuliyaS</p>
+                      </div>
+                    </div>
+                    <div className='w-[52.95px] h-[43.78px] gap-[6.78px] flex flex-col justify-between items-end'>
+                      <div className='w-[52.95px] h-[19px] gap-[1.69px] flex flex-row justify-between items-center'>
+                        <div className='w-[15.25px] h-[15.25px] flex justify-center items-center'>
+                          <div className='w-[7.94px] h-[13.03px] bg-weekly_users_eth'></div>
+                        </div>
+                        <p className='w-[36px] h-[19px] font-[600] text-[13.56px] leading-[18.98px] text-bla'>5,327</p>
+                      </div>
+                      <p className='w-[43px] h-[18px] font-[400] text-[11.86px] leading-[17.79px] text-[#E23333]'>-32,01%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*End - Block 3*/}
+            </div>
+            {/*End - Illustration*/}
+          </div>
+        </div>
+        {/*End - UNLEASH*/}
     </div>
   )
 }
