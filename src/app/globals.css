@@ -276,3 +276,11 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.bg-banner_image_1_op {
+  background-image: url(images/image_1.jpeg);
+  background-position: center;
+  background-size: cover;
+  opacity: 70%;
+  filter: blur(52.87);
+}

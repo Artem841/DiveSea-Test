@@ -1081,6 +1081,26 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - UNLEASH*/}
+        {/*Start - BANNER*/}
+        <div className='w-[1245px] h-[311px] flex flex-row rounded-[30px] bg-bla mt-[180.92px] ml-[97px]'>
+          <div className='w-[476px] h-[214.98px] mt-[44.22px] ml-[66px] flex flex-col'>
+            <p className='w-[476px] h-[58px] font-[600] text-[45px] leading-[58.5px] tracking-[1%] text-whi'>Create and Sell NFTs</p>
+            <p className='w-[264px] h-[26px] font-[500] text-[20.27px] leading-[26.35px] text-[#D4D4D4]/60 mt-[12.48px] tracking-[1%]'>World's Largest NFT Place</p>
+            <div className='w-[396.62px] h-[67.66px] gap-[30.51px] mt-[50.84px] flex flex-row'>
+              <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] gap-[15.25px] bg-whi flex justify-center items-center'>
+                <p className='font-[600] text-[21.36px] leading-[27.76px] tracking-[1%] text-bla'>Explore More</p>
+              </button>
+              <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] border-[2.29px] border-whi gap-[15.25px] flex justify-center items-center'>
+                <p className='font-[600] text-[21.36px] leading-[27.76px] tracking-[1%] text-whi'>Sell Artwork</p>
+              </button>
+            </div>
+          </div>
+          <div className='w-[390px] h-[264px] mt-[31px] ml-[291px] relative'>
+            <div className='w-[390px] h-[249px] rounded-[7.55px] bg-banner_image_1_op absolute top-[15px]'></div>
+            <div className='w-[369px] h-[249px] rounded-[15.79px] bg-image_1 absolute left-[12px]'></div>
+          </div>
+        </div>
+        {/*End - BANNER*/}
     </div>
   )
 }
