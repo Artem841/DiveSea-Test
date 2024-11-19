@@ -695,7 +695,7 @@ export default function ImageComponent() {
                   <div className='w-[84.04px] h-[84.04px] rounded-[1750.91px] border-[3.5px] border-whi bg-top_collection_image_2
                                   max-mobile:w-[46.24px] max-mobile:h-[46.24px] max-mobile:rounded-[963.3px] max-mobile:border-[1.93px] max-mobile:absolute max-mobile:top-[0.27px]'></div>
                   <div className='min-mobile:hidden w-[21.19px] h-[21.19px] top-[27.24px] left-[30.83px] rounded-[100%] bg-whi flex justify-center items-center absolute'>
-                    <p className='font-[700] text-[11.56px] leading-[17.34px] text-bla'>2</p>
+                    <p className='font-[700] text-[11.56px] leading-[17.34px] text-bla'>4</p>
                   </div>
                 </div>
                 <div className='w-[113px] h-[74.75px] gap-[1.75px] ml-[23.65px] flex flex-col justify-between
