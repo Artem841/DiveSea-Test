@@ -32,10 +32,10 @@ export default function ImageComponent() {
         {/*Start - Navigation*/}
         <nav className='flex flex-row gap-[53.49px] w-[445.46px] h-[27px] mt-[16px] ml-[57.06px]
                         max-mobile:hidden'>
-          <div className='uppercase w-[91px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Discover</div>
-          <div className='uppercase w-[95px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Creators</div>
-          <div className='uppercase w-[43px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Sell</div>
-          <div className='uppercase w-[56px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Stats</div>
+          <p className='uppercase w-[91px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Discover</p>
+          <p className='uppercase w-[95px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Creators</p>
+          <p className='uppercase w-[43px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Sell</p>
+          <p className='uppercase w-[56px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Stats</p>
         </nav>
         {/*End - Navigation*/}
         {/*Start - Search Field*/}
@@ -50,7 +50,7 @@ export default function ImageComponent() {
         {/*Start - Wallet Connection Button*/}
         <button className='bg-black w-[199.52px] h-[57.34px] ml-[30.03px] rounded-[16.17px] flex justify-center items-center
                            max-mobile:hidden'>
-          <p className='uppercase w-[151px] h-[25px] text-[16.17px] text-[#FFFFFF] leading-[24.26px] font-[600]'>Connect Wallet</p>
+          <p className='uppercase w-[151px] h-[25px] text-[16.17px] text-whi leading-[24.26px] font-[600]'>Connect Wallet</p>
         </button>
         {/*End - Wallet Connection Button*/}
       </header>
@@ -193,140 +193,221 @@ export default function ImageComponent() {
       {/*End - HEADER*/}
 
       {/*Start - WEEKLY*/}
-      <div className='w-[1565px] h-[989px] mt-[143.01px] relative'>
-        <div className='w-[1565px] h-[873px] bg-[#F1F1F1]'>
+      <div className='w-[1565px] h-[989px] mt-[143.01px] relative
+                      max-mobile:w-[1105px] max-mobile:h-[589px] max-mobile:mt-[113.6px]'>
+        <div className='w-[1565px] h-[873px] bg-[#F1F1F1]
+                        max-mobile:w-[1105px] max-mobile:h-[589px]'>
           {/*Start - Main Text*/}
-          <p className='w-[395px] h-[27px] pt-[70px] ml-[522px] font-[600] text-[45px] leading-[26.92px] text-[#C5C5C5]'>Weekly - Top NFT</p>
+          <p className='w-[395px] h-[27px] pt-[70px] ml-[522px] font-[600] text-[45px] leading-[26.92px] text-[#C5C5C5]
+                        max-mobile:w-[263px] max-mobile:h-[27px] max-mobile:pt-[57px] max-mobile:ml-[56px] max-mobile:text-[30px]'>Weekly - Top NFT</p>
           {/*End - Main Text*/}
           {/*Start - Cards*/}
-          <div className='w-[1565px] h-[402.28px] mt-[100px]'>
-            <div className='w-[1565px] h-[402.28px] gap-[13.37px]'>
-              <div className='w-[1565px] h-[402.28px] gap-[39.84px] flex flex-row'>
+          <div className='w-[1565px] h-[402.28px] mt-[100px]
+                          max-mobile:w-[1105px] max-mobile:h-[284.04px] max-mobile:mt-[63px]'>
+            <div className='w-[1565px] h-[402.28px] gap-[13.37px]
+                            max-mobile:w-[1105px] max-mobile:h-[284.04px] max-mobile:gap-[9.44px]'>
+              <div className='w-[1565px] h-[402.28px] gap-[39.84px] flex flex-row
+                              max-mobile:w-[1105px] max-mobile:h-[284.04px] max-mobile:gap-[28.13px]'>
                 {/*Start - First Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
-                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
-                      <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]
+                                max-mobile:w-[198.49px] max-mobile:h-[284.04px] max-mobile:pt-[9.97px] max-mobile:rounded-[16.61px] max-mobile:shadow-[12.51px_8.31px_41.53px_0_rgba(199,199,199,0.6)]'>
+                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[23.48px] bg-weekly_card_1
+                                  max-mobile:w-[178.56px] max-mobile:h-[178.56px] max-mobile:ml-[9.97px] max-mobile:pt-[9.96px] max-mobile:rounded-[16.58px]'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center
+                                    max-mobile:w-[80.99px] max-mobile:h-[26.58px] max-mobile:ml-[89.7px] max-mobile:rounded-[6.64px] max-mobile:border-[0.83px] max-mobile:blur-[3.32] max-mobile:shadow-[0_3.32px_9.97px_0_rgba(28,29,32,0.08)]'>
+                      <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi
+                                    max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>07h 09m 12s</p>
                     </div>
                   </div>
-                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
-                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
-                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
-                        <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
-                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
-                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
-                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between
+                                  max-mobile:w-[171.92px] max-mobile:h-[67.75px] max-mobile:mt-[13.29px] max-mobile:ml-[13.29px]'>
+                    <p className='font-[600] text-[21.17px] leading-[29.64px] text-bla
+                                  max-mobile:text-[14.95px] max-mobile:leading-[20.93px]'>Sun-Glass</p>
+                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between
+                                    max-mobile:w-[171.92px] max-mobile:h-[36.54px]'>
+                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col
+                                      max-mobile:w-[85.96px] max-mobile:h-[35.32px] max-mobile:gap-[3.32px]'>
+                        <p className='font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]
+                                      max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>Current bid</p>
+                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center
+                                        max-mobile:w-[37.61px] max-mobile:h-[17px] max-mobile:gap-[1.66px]'>
+                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center
+                                          max-mobile:w-[14.95px] max-mobile:h-[14.95px]'>
+                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth
+                                            max-mobile:w-[7.79px] max-mobile:h-[12.77px]'></div>
                           </div>
-                          <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                          <p className='font-[500] text-[16.47px] leading-[24.7px]
+                                        max-mobile:text-[11.63px] max-mobile:leading-[17.44px]'>1.75</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
-                        <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center
+                                         max-mobile:w-[85.96px] max-mobile:h-[36.54px] max-mobile:rounded-[8.31px] max-mobile:gap-[8.31px]'>
+                        <p className='font-[600] text-[14.12px] leading-[21.17px] text-whi
+                                      max-mobile:font-[700] max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>PLACE BID</p>
                       </button>
                     </div>
                   </div>
                 </div>
                 {/*End - First Card*/}
                 {/*Start - Second Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
-                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
-                      <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]
+                                max-mobile:w-[198.49px] max-mobile:h-[284.04px] max-mobile:pt-[9.97px] max-mobile:rounded-[16.61px] max-mobile:shadow-[12.51px_8.31px_41.53px_0_rgba(199,199,199,0.6)]'>
+                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[23.48px] bg-weekly_card_2
+                                  max-mobile:w-[178.56px] max-mobile:h-[178.56px] max-mobile:ml-[9.97px] max-mobile:pt-[9.96px] max-mobile:rounded-[16.58px]'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center
+                                    max-mobile:w-[80.99px] max-mobile:h-[26.58px] max-mobile:ml-[89.7px] max-mobile:rounded-[6.64px] max-mobile:border-[0.83px] max-mobile:blur-[3.32] max-mobile:shadow-[0_3.32px_9.97px_0_rgba(28,29,32,0.08)]'>
+                      <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi
+                                    max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>07h 09m 12s</p>
                     </div>
                   </div>
-                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
-                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
-                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
-                        <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
-                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
-                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
-                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between
+                                  max-mobile:w-[171.92px] max-mobile:h-[67.75px] max-mobile:mt-[13.29px] max-mobile:ml-[13.29px]'>
+                    <p className='font-[600] text-[21.17px] leading-[29.64px] text-bla
+                                  max-mobile:text-[14.95px] max-mobile:leading-[20.93px]'>Sun-Glass</p>
+                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between
+                                    max-mobile:w-[171.92px] max-mobile:h-[36.54px]'>
+                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col
+                                      max-mobile:w-[85.96px] max-mobile:h-[35.32px] max-mobile:gap-[3.32px]'>
+                        <p className='font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]
+                                      max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>Current bid</p>
+                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center
+                                        max-mobile:w-[37.61px] max-mobile:h-[17px] max-mobile:gap-[1.66px]'>
+                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center
+                                          max-mobile:w-[14.95px] max-mobile:h-[14.95px]'>
+                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth
+                                            max-mobile:w-[7.79px] max-mobile:h-[12.77px]'></div>
                           </div>
-                          <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                          <p className='font-[500] text-[16.47px] leading-[24.7px]
+                                        max-mobile:text-[11.63px] max-mobile:leading-[17.44px]'>1.75</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
-                        <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center
+                                         max-mobile:w-[85.96px] max-mobile:h-[36.54px] max-mobile:rounded-[8.31px] max-mobile:gap-[8.31px]'>
+                        <p className='font-[600] text-[14.12px] leading-[21.17px] text-whi
+                                      max-mobile:font-[700] max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>PLACE BID</p>
                       </button>
                     </div>
                   </div>
                 </div>
                 {/*End - Second Card*/}
                 {/*Start - Third Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
-                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
-                      <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]
+                                max-mobile:w-[198.49px] max-mobile:h-[284.04px] max-mobile:pt-[9.97px] max-mobile:rounded-[16.61px] max-mobile:shadow-[12.51px_8.31px_41.53px_0_rgba(199,199,199,0.6)]'>
+                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[23.48px] bg-weekly_card_3
+                                  max-mobile:w-[178.56px] max-mobile:h-[178.56px] max-mobile:ml-[9.97px] max-mobile:pt-[9.96px] max-mobile:rounded-[16.58px]'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center
+                                    max-mobile:w-[80.99px] max-mobile:h-[26.58px] max-mobile:ml-[89.7px] max-mobile:rounded-[6.64px] max-mobile:border-[0.83px] max-mobile:blur-[3.32] max-mobile:shadow-[0_3.32px_9.97px_0_rgba(28,29,32,0.08)]'>
+                      <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi
+                                    max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>07h 09m 12s</p>
                     </div>
                   </div>
-                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[113px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>Sun-Glass</p>
-                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
-                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
-                        <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
-                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
-                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
-                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between
+                                  max-mobile:w-[171.92px] max-mobile:h-[67.75px] max-mobile:mt-[13.29px] max-mobile:ml-[13.29px]'>
+                    <p className='font-[600] text-[21.17px] leading-[29.64px] text-bla
+                                  max-mobile:text-[14.95px] max-mobile:leading-[20.93px]'>Sun-Glass</p>
+                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between
+                                    max-mobile:w-[171.92px] max-mobile:h-[36.54px]'>
+                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col
+                                      max-mobile:w-[85.96px] max-mobile:h-[35.32px] max-mobile:gap-[3.32px]'>
+                        <p className='font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]
+                                      max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>Current bid</p>
+                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center
+                                        max-mobile:w-[37.61px] max-mobile:h-[17px] max-mobile:gap-[1.66px]'>
+                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center
+                                          max-mobile:w-[14.95px] max-mobile:h-[14.95px]'>
+                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth
+                                            max-mobile:w-[7.79px] max-mobile:h-[12.77px]'></div>
                           </div>
-                          <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.75</p>
+                          <p className='font-[500] text-[16.47px] leading-[24.7px]
+                                        max-mobile:text-[11.63px] max-mobile:leading-[17.44px]'>1.75</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
-                        <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center
+                                         max-mobile:w-[85.96px] max-mobile:h-[36.54px] max-mobile:rounded-[8.31px] max-mobile:gap-[8.31px]'>
+                        <p className='font-[600] text-[14.12px] leading-[21.17px] text-whi
+                                      max-mobile:font-[700] max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>PLACE BID</p>
                       </button>
                     </div>
                   </div>
                 </div>
                 {/*End - Third Card*/}
                 {/*Start - Fourth Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
-                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
-                      <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]
+                                max-mobile:w-[198.49px] max-mobile:h-[284.04px] max-mobile:pt-[9.97px] max-mobile:rounded-[16.61px] max-mobile:shadow-[12.51px_8.31px_41.53px_0_rgba(199,199,199,0.6)]'>
+                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[23.48px] bg-weekly_card_4
+                                  max-mobile:w-[178.56px] max-mobile:h-[178.56px] max-mobile:ml-[9.97px] max-mobile:pt-[9.96px] max-mobile:rounded-[16.58px]'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center
+                                    max-mobile:w-[80.99px] max-mobile:h-[26.58px] max-mobile:ml-[89.7px] max-mobile:rounded-[6.64px] max-mobile:border-[0.83px] max-mobile:blur-[3.32] max-mobile:shadow-[0_3.32px_9.97px_0_rgba(28,29,32,0.08)]'>
+                      <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi
+                                    max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>19h 09m 12s</p>
                     </div>
                   </div>
-                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>NuEvey</p>
-                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
-                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
-                        <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
-                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
-                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
-                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between
+                                  max-mobile:w-[171.92px] max-mobile:h-[67.75px] max-mobile:mt-[13.29px] max-mobile:ml-[13.29px]'>
+                    <p className='font-[600] text-[21.17px] leading-[29.64px] text-bla
+                                  max-mobile:text-[14.95px] max-mobile:leading-[20.93px]'>NuEvey</p>
+                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between
+                                    max-mobile:w-[171.92px] max-mobile:h-[36.54px]'>
+                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col
+                                      max-mobile:w-[85.96px] max-mobile:h-[35.32px] max-mobile:gap-[3.32px]'>
+                        <p className='font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]
+                                      max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>Current bid</p>
+                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center
+                                        max-mobile:w-[37.61px] max-mobile:h-[17px] max-mobile:gap-[1.66px]'>
+                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center
+                                          max-mobile:w-[14.95px] max-mobile:h-[14.95px]'>
+                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth
+                                            max-mobile:w-[7.79px] max-mobile:h-[12.77px]'></div>
                           </div>
-                          <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.25</p>
+                          <p className='font-[500] text-[16.47px] leading-[24.7px]
+                                        max-mobile:text-[11.63px] max-mobile:leading-[17.44px]'>1.25</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
-                        <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center
+                                         max-mobile:w-[85.96px] max-mobile:h-[36.54px] max-mobile:rounded-[8.31px] max-mobile:gap-[8.31px]'>
+                        <p className='font-[600] text-[14.12px] leading-[21.17px] text-whi
+                                      max-mobile:font-[700] max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>PLACE BID</p>
                       </button>
                     </div>
                   </div>
                 </div>
                 {/*End - Fourth Card*/}
                 {/*Start - Fifth Card*/}
-                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
-                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_5'>
-                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
-                      <p className='w-[88px] h-[21px] font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
+                <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]
+                                max-mobile:w-[198.49px] max-mobile:h-[284.04px] max-mobile:pt-[9.97px] max-mobile:rounded-[16.61px] max-mobile:shadow-[12.51px_8.31px_41.53px_0_rgba(199,199,199,0.6)]'>
+                  <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[23.48px] bg-weekly_card_5
+                                  max-mobile:w-[178.56px] max-mobile:h-[178.56px] max-mobile:ml-[9.97px] max-mobile:pt-[9.96px] max-mobile:rounded-[16.58px]'>
+                    <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center
+                                    max-mobile:w-[80.99px] max-mobile:h-[26.58px] max-mobile:ml-[89.7px] max-mobile:rounded-[6.64px] max-mobile:border-[0.83px] max-mobile:blur-[3.32] max-mobile:shadow-[0_3.32px_9.97px_0_rgba(28,29,32,0.08)]'>
+                      <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi
+                                    max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>19h 09m 12s</p>
                     </div>
                   </div>
-                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between'>
-                    <p className='w-[80px] h-[30px] font-[600] text-[21.17px] leading-[29.64px] text-bla'>NuEvey</p>
-                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between'>
-                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col'>
-                        <p className='w-[81px] h-[21px] font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]'>Current bid</p>
-                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center'>
-                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center'>
-                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth'></div>
+                  <div className='w-[243.49px] h-[95.95px] mt-[18.82px] ml-[18.82px] flex flex-col justify-between
+                                  max-mobile:w-[171.92px] max-mobile:h-[67.75px] max-mobile:mt-[13.29px] max-mobile:ml-[13.29px]'>
+                    <p className='font-[600] text-[21.17px] leading-[29.64px] text-bla
+                                  max-mobile:text-[14.95px] max-mobile:leading-[20.93px]'>NuEvey</p>
+                    <div className='w-[243.49px] h-[51.76px] flex flex-row justify-between
+                                    max-mobile:w-[171.92px] max-mobile:h-[36.54px]'>
+                      <div className='w-[121.74px] h-[50.71px] gap-[4.71px] flex flex-col
+                                      max-mobile:w-[85.96px] max-mobile:h-[35.32px] max-mobile:gap-[3.32px]'>
+                        <p className='font-[400] text-[14.12px] leading-[21.17px] text-[#94A3B8]
+                                      max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>Current bid</p>
+                        <div className='w-[53.53px] h-[25px] gap-[2.35px] flex flex-row justify-between itemc-center
+                                        max-mobile:w-[37.61px] max-mobile:h-[17px] max-mobile:gap-[1.66px]'>
+                          <div className='w-[21.17px] h-[21.17px] flex justify-center items-center
+                                          max-mobile:w-[14.95px] max-mobile:h-[14.95px]'>
+                            <div className='w-[11.03px] h-[18.09px] bg-weekly_eth
+                                            max-mobile:w-[7.79px] max-mobile:h-[12.77px]'></div>
                           </div>
-                          <p className='w-[30px] h-[25px] font-[500] text-[16.47px] leading-[24.7px]'>1.25</p>
+                          <p className='font-[500] text-[16.47px] leading-[24.7px]
+                                        max-mobile:text-[11.63px] max-mobile:leading-[17.44px]'>1.25</p>
                         </div>
                       </div>
-                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center'>
-                        <p className='w-[71px] h-[21px] font-[600] text-[14.12px] leading-[21.17px] text-whi'>PLACE BID</p>
+                      <button className='w-[121.74px] h-[51.76px] bg-bla rounded-[11.76px] gap-[11.76px] flex justify-center items-center
+                                         max-mobile:w-[85.96px] max-mobile:h-[36.54px] max-mobile:rounded-[8.31px] max-mobile:gap-[8.31px]'>
+                        <p className='font-[600] text-[14.12px] leading-[21.17px] text-whi
+                                      max-mobile:font-[700] max-mobile:text-[9.97px] max-mobile:leading-[14.95px]'>PLACE BID</p>
                       </button>
                     </div>
                   </div>
@@ -337,21 +418,28 @@ export default function ImageComponent() {
           </div>
           {/*End - Cards*/}
           {/*Start - Arrows*/}
-          <div className='w-[166px] h-[68.99px] ml-[637px] mt-[114.72px] bg-[#FCFCFD] rounded-[17.25px] gap-[10.78px] shadow-[0_43.12px_34.49px_-25.87px_rgba(15,15,15,0.12)] flex justify-center items-center'>
-            <div className='w-[122.88px] h-[25.87px] gap-[34.49px] flex flex-row'>
-              <div className='w-[25.87px] h-[25.87px] flex items-center justify-center'>
-                <div className='w-[15.09px] h-[9.7px] bg-weekly_left_arrow'></div>
+          <div className='w-[166px] h-[68.99px] ml-[637px] mt-[114.72px] bg-[#FCFCFD] rounded-[17.25px] gap-[10.78px] shadow-[0_43.12px_34.49px_-25.87px_rgba(15,15,15,0.12)] flex justify-center items-center
+                          max-mobile:w-[102px] max-mobile:h-[42.39px] max-mobile:ml-[136px] max-mobile:mt-[59.96] max-mobile:rounded-[10.6px] max-mobile:gap-[6.62px] max-mobile:shadow-[0,16.49px_21.19px_-15.9px_rgba(15,15,15,0.12)'>
+            <div className='w-[122.88px] h-[25.87px] gap-[34.49px] flex flex-row items-center
+                            max-mobile:w-[75.51px] max-mobile:[15.9px] max-mobile:gap-[21.19px]'>
+              <div className='w-[25.87px] h-[25.87px] flex items-center justify-center
+                              max-mobile:w-[15.9px] max-mobile:h-[15.9px]'>
+                <div className='w-[15.09px] h-[9.7px] bg-weekly_left_arrow
+                                max-mobile:w-[9.27px] max-mobile:h-[5.96px]'></div>
               </div>
-              <div className='w-[2.16px] h-[25.87px] rounded-[2.16px] bg-[#E6E8EC]'></div>
-              <div className='w-[25.87px] h-[25.87px] flex items-center justify-center'>
-                <div className='w-[15.09px] h-[9.7px] bg-weekly_right_arrow'></div>
+              <div className='w-[2.16px] h-[25.87px] rounded-[2.16px] bg-[#E6E8EC]
+                              max-mobile:w-[1.32px] max-mobile:h-[15.9px] max-mobile:rounded-[1.32px]'></div>
+              <div className='w-[25.87px] h-[25.87px] flex items-center justify-center
+                              max-mobile:w-[15.9px] max-mobile:h-[15.9px]'>
+                <div className='w-[15.09px] h-[9.7px] bg-weekly_right_arrow
+                                max-mobile:w-[9.27px] max-mobile:h-[5.96px]'></div>
               </div>
             </div>
           </div>
           {/*End - Arrows*/}
         </div>
         {/*Start - Users*/}
-        <div className='w-[365px] h-[246px] bg-whi left-[976px] top-[743px] border-[1px] border-[#EDF2F7] rounded-[16px] shadow-[10px_10px_50px_0_rgba(20,20,22,0.1)] absolute flex flex-col justify-between'>
+        <div className='w-[365px] h-[246px] bg-whi left-[976px] top-[743px] border-[1px] border-[#EDF2F7] rounded-[16px] shadow-[10px_10px_50px_0_rgba(20,20,22,0.1)] absolute flex flex-col justify-between max-mobile:hidden'>
           <div className='w-[363px] h-[54.37px] flex flex-row'>
             <p className='w-[161px] h-[28px] ml-[24px] mt-[26.37px] font-[600] text-[21px] leading-[28.35px] text-[#1A202C]'>Recent Viewed</p>
             <div className='w-[24px] h-[10.7px] ml-[132px] mt-[35.27px] bg-points_3'></div>
