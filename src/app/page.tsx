@@ -43,14 +43,14 @@ export default function ImageComponent() {
                         max-mobile:hidden'>
           <div className='w-[244.23px] h-[21.51px] mt-[18px] ml-[22.58px] flex flex-row'>
             <div className='bg-magnifier w-[21.51px] h-[21.51px]'></div>
-            <p className='w-[197px] h-[18px] mt-[1.08px] ml-[25.72px] text-[15.71px] text-[#C2C3CB] leading-[18.46px] font-medium'>Search Art Work / Creator </p>
+            <p className='mt-[1.08px] ml-[25.72px] text-[15.71px] text-[#C2C3CB] leading-[18.46px] font-medium'>Search Art Work / Creator </p>
           </div>
         </div>
         {/*End - Search Field*/}
         {/*Start - Wallet Connection Button*/}
         <button className='bg-black w-[199.52px] h-[57.34px] ml-[30.03px] rounded-[16.17px] flex justify-center items-center
                            max-mobile:hidden'>
-          <p className='uppercase w-[151px] h-[25px] text-[16.17px] text-whi leading-[24.26px] font-[600]'>Connect Wallet</p>
+          <p className='uppercase text-[16.17px] text-whi leading-[24.26px] font-[600]'>Connect Wallet</p>
         </button>
         {/*End - Wallet Connection Button*/}
       </header>
@@ -66,22 +66,21 @@ export default function ImageComponent() {
           <div className='w-[568px] h-[367px]
                           max-mobile:w-auto max-mobile:h-auto'>
             {/*Start - Line with Text*/}
-            <div className='max-mobile:w-[153.62px] max-mobile:h-[11px] max-mobile:ml-[77px] max-mobile:flex max-mobile:flex-row'>
+            <div className='max-mobile:w-[153.62px] max-mobile:h-[11px] max-mobile:ml-[77px] max-mobile:flex max-mobile:flex-row max-mobile:justify-between max-mobile:items-center
+                            min-mobile:w-auto max-mobile:h-auto'>
               <div className='min-mobile:bg-[#201F1F]/20 w-[195px] h-[1px] min-mobile:ml-[3px]
-                              max-mobile:bg-[#8D8C8C] max-mobile:w-[33.29px] max-mobile:h-[0.62] max-mobile:mt-[6px]'>
+                              max-mobile:bg-[#8D8C8C] max-mobile:w-[33.29px] max-mobile:h-[0.62px]'>
               </div>
-              <div className='min-mobile:hidden uppercase w-[108px] h-[11px] ml-[12.33px] flex justify-center'>
-                <p className='font-[600] text-[9.25px] leading-[11.1px] tracking-[1.23px] text-[#8D8C8C]'>Over 1M Creators</p>
-              </div>
+              <p className='min-mobile:hidden uppercase font-[600] text-[9.25px] leading-[11.1px] tracking-[1.23px] text-[#8D8C8C]'>Over 1M Creators</p>
             </div>
             {/*End - Line with Text*/}
             {/*Start - Heading with Description*/}
             <div className='w-[567px] h-[252px] mt-[10px]
                             max-mobile:w-[315.36px] max-mobile:h-[159.87px] max-mobile:mt-[5.98px]'>
-              <p className='text-bla w-[567px] h-[180px] text-[75px] font-[600] leading-[90px] tracking-[-3px]
-                            max-mobile:w-[310.94px] max-mobile:h-[114px] max-mobile:ml-[2.03px] max-mobile:text-[47.4px] max-mobile:font-[600] max-mobile:leading-[56.88px] max-mobile:tracking-[-1.9px] max-mobile:text-center'>Discover And Create NFTs</p>
-              <p className='text-[#676767] w-[499px] h-[56px] ml-[2px] mt-[16px] text-[18px] font-[400] leading-[28px] text-justify
-                            max-mobile:w-[315.36px] max-mobile:h-[36px] max-mobile:ml-[0px] max-mobile:mt-[9.87px] max-mobile:text-[11.38px] max-mobile:leading-[17.7px] max-mobile:text-center '>Discover, Create and Sell NFTs On Our NFT Marketplace With Over Thousands Of NFTs And Get a <span className='text-bla font-[600] text-justify
+              <p className='text-bla text-[75px] font-[600] leading-[90px] tracking-[-3px]
+                            max-mobile:ml-[2.03px] max-mobile:text-[47.4px] max-mobile:font-[600] max-mobile:leading-[56.88px] max-mobile:tracking-[-1.9px] max-mobile:text-center'>Discover And<br />Create NFTs</p>
+              <p className='text-[#676767] ml-[2px] mt-[16px] text-[18px] font-[400] leading-[28px] text-justify
+                            max-mobile:ml-[0px] max-mobile:mt-[9.87px] max-mobile:text-[11.38px] max-mobile:leading-[17.7px] max-mobile:text-center '>Discover, Create and Sell NFTs On Our NFT Marketplace <br />With Over Thousands Of NFTs And Get a <span className='text-bla font-[600] text-justify
                             max-mobile:text-center'>$20 bonus</span>.</p>
             </div>
             {/*End - Heading with Description*/}
@@ -90,13 +89,13 @@ export default function ImageComponent() {
                             max-mobile:mt-[42.15px] max-mobile:w-[244px] max-mobile:h-[47px] max-mobile:ml-[33px]'>
               <button className='bg-[#000000] w-[179px] h-[60px] rounded-[12.41px] flex justify-center items-center
                                  max-mobile:w-[128px] max-mobile:h-[47px] max-mobile:rounded-[8.89px]'>
-                <p className='uppercase text-[#FFFFFF] w-[120px] h-[24px] text-[16.27px] leading-[24.41px] tracking-[1%] font-[500]
-                              max-mobile:w-[86px] max-mobile:h-[17px] max-mobile:text-[11.66px] max-mobile:leading-[17.49px]'>Explore More</p>
+                <p className='uppercase text-[#FFFFFF] text-[16.27px] leading-[24.41px] tracking-[1%] font-[500]
+                              max-mobile:text-[11.66px] max-mobile:leading-[17.49px]'>Explore More</p>
               </button>
               <button className='w-[138px] h-[60px] ml-[23px] rounded-[12.41px] border-[1.5px] border-[#000000] flex justify-center items-center
                                  max-mobile:w-[99px] max-mobile:h-[47px] max-mobile:ml-[17px] max-mobile:rounded-[8.89px] max-mobile:border-[1.07px]'>
-                <p className='uppercase w-[96px] h-[24px] font-[500] text-[16.27px] text-[#000000] leading-[24.41px] tracking-[1%]
-                              max-mobile:w-[69px] max-mobile:h-[17px] max-mobile:text-[11.66px] max-mobile:leading-[17.49px]'>create NFT</p>
+                <p className='uppercase font-[500] text-[16.27px] text-[#000000] leading-[24.41px] tracking-[1%]
+                              max-mobile:text-[11.66px] max-mobile:leading-[17.49px]'>create NFT</p>
               </button>
             </div>
             {/*End - Two Buttons*/}
@@ -738,7 +737,7 @@ export default function ImageComponent() {
           {/*End - User 4*/}
           {/*End - Users*/}
           <div className='w-[120.79px] h-[40px] ml-[1117px] mt-[85px] flex flex-row justify-between items-center
-                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[145px] max-mobile:mt-[41px]'>
+                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[116px] max-mobile:mt-[41px]'>
             <p className='font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]
                           max-mobile:text-[12.29px] max-mobile:leading-[27.76px]'>Explore All</p>
             <div className='w-[13.96] h-[13.96px] flex flex-row relative
@@ -752,32 +751,48 @@ export default function ImageComponent() {
         </div>
         {/*End - TOP COLLECTION*/}
         {/*Start - EXPLORE*/}
-        <div className='w-[1248.09px] h-[1268px] mt-[100px] ml-[96px] flex flex-col'>
-          <p className='w-[466px] h-[27px] font-[600] text-[45px] leading-[26.92px] ml-[391px]'>Explore Marketplace</p>
-          <div className='w-[545.8px] h-[57.72px] ml-[351px] mt-[65px] flex flex-row justify-between'>
-            <button className='w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex justify-center items-center'>
-              <p className='w-[19px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>All</p>
+        <div className='w-[1248.09px] h-[1268px] mt-[100px] ml-[96px] flex flex-col
+                        max-mobile:w-[289.62px] max-mobile:h-[2024px] max-mobile:mt-[100px] max-mobile:ml-[43px]'>
+          <p className='font-[600] text-[45px] leading-[26.92px] text-center
+                        max-mobile:text-[30px] max-mobile:leading-[37.5px] max-mobile:break-word'>Explore <br className='min-mobile:hidden' /> Marketplace</p>
+          <div className='w-[545.8px] h-[57.72px] ml-[351px] mt-[65px] flex flex-row justify-between
+                          max-mobile:w-[289.62px] max-mobile:h-[37px] max-mobile:ml-[0] max-mobile:mt-[30px]'>
+            <button className='max-mobile:hidden w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex justify-center items-center'>
+              <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>All</p>
             </button>
-            <button className='w-[137.04px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] items-center flex flex-row'>
-              <div className='w-[25.19px] h-[25.19px] ml-[16.01px] flex justify-center items-center'>
-                <div className='w-[16.67px] h-[20.99px] bg-explore_list'></div>
+            <button className='w-[137.04px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] justify-center items-center flex flex-row
+                               max-mobile:w-[87.85px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px] max-mobile:gap-[5.67px]'>
+              <div className='w-[25.19px] h-[25.19px] flex justify-center items-center
+                              max-mobile:w-[16.15px] max-mobile:-[16.15px]'>
+                <div className='w-[16.67px] h-[20.99px] bg-explore_list
+                                max-mobile:w-[10.68px] max-mobile:h-[13.45px]'></div>
               </div>
-              <p className='w-[71px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>Category</p>
+              <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
+                            max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Category</p>
             </button>
-            <button className='w-[145.88px] h-[56.2px] rounded-[13.26px] gap-[8.84px] border-[2.21px] border-bla flex flex-row items-center'>
-              <div className='w-[25.19px] h-[25.19px] ml-[18.53px] flex justify-center items-center'>
-                <div className='w-[20.99px] h-[20.99px] bg-explore_collection'></div>
+            <button className='w-[145.88px] h-[56.2px] rounded-[13.26px] gap-[8.84px] border-[2.21px] border-bla flex flex-row justify-center items-center
+                               max-mobile:w-[93.52px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:gap-[5.67px max-mobile:border-[1.42px]'>
+              <div className='w-[25.19px] h-[25.19px] flex justify-center items-center
+                              max-mobile:w-[16.15px] max-mobile:h-[16.15px]'>
+                <div className='w-[20.99px] h-[20.99px] bg-explore_collection
+                                max-mobile:w-[13.45px] max-mobile:h-[13.45px]'></div>
               </div>
-              <p className='w-[79px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>Collection</p>
+              <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
+                            max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Collection</p>
             </button>
-            <button className='w-[124.88px] h-[57.72px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex flex-row items-center'>
-              <div className='w-[25.19px] h-[25.19px] ml-[25.93px] bg-explore_dollar'></div>
-              <p className='w-[39px] h-[23px] font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>Price</p>
+            <button className='w-[124.88px] h-[57.72px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex flex-row justify-center items-center
+                               max-mobile:w-[80.05px] max-mobile:h-[37px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px] max-mobile:gap-[5.67px]'>
+              <div className='w-[25.19px] h-[25.19px] bg-explore_dollar
+                              max-mobile:w-[16.15px] max-mobile:h-[16.15px]'></div>
+              <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
+                            max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Price</p>
             </button>
           </div>
           {/*Start - First Row of Cards*/}
-          <div className='w-[1248px] h-[403.56px] mt-[100.28px]'>
-            <div className='w-[1248px] h-[403.56px] flex flex-row justify-between'>
+          <div className='w-[1248px] h-[403.56px] mt-[100.28px]
+                          max-mobile:w-[283.46px] max-mobile:h-[1728px] max-mobile:mt-[75px]'>
+            <div className='w-[1248px] h-[403.56px] flex flex-row justify-between
+                            max-mobile:w-[283.46px] max-mobile:h-[1728px] max-mobile:flex-col'>
               {/*Start - Card 1*/}
               <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
@@ -886,7 +901,7 @@ export default function ImageComponent() {
           </div>
           {/*End - First Row of Cards*/}
           {/*Start - Second Row of Cards*/}
-          <div className='w-[1248px] h-[403.56px] mt-[100.28px]'>
+          <div className='w-[1248px] h-[403.56px] mt-[100.28px] max-mobile:hidden'>
             <div className='w-[1248px] h-[403.56px] flex flex-row-reverse justify-between'>
               {/*Start - Card 1*/}
               <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
@@ -995,11 +1010,16 @@ export default function ImageComponent() {
             </div>
           </div>
           {/*End - Second Row of Cards*/}
-          <div className='w-[120.79px] h-[40px] ml-[1118.43px] mt-[70px] flex flex-row justify-between items-center'>
-            <p className='w-[90px] h-[40px] font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]'>Explore All</p>
-            <div className='w-[13.96] h-[13.96px] flex flex-row relative'>
-              <div className='w-[13.96px] h-[2.2px] top-[5.9px] absolute bg-top_collection_strelka_2'></div>
-              <div className='w-[7.5px] h-[13.96px] left-[6.98px] absolute bg-top_collection_strelka_1'></div>
+          <div className='w-[120.79px] h-[40px] ml-[1118.43px] mt-[70px] flex flex-row justify-between items-center
+                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[102px] max-mobile:mt-[50px]'>
+            <p className='font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]
+                          max-mobile:text-[12.29px] max-mobile:leading-[27.76px]'>Explore All</p>
+            <div className='w-[13.96] h-[13.96px] flex flex-row relative
+                            max-mobile:w-[9.71px] max-mobile:h-[9.71px]'>
+              <div className='w-[13.96px] h-[2.2px] top-[5.9px] absolute bg-top_collection_strelka_2
+                              max-mobile:w-[9.71px] max-mobile:h-[1.39px] top-[4.2px]'></div>
+              <div className='w-[7.5px] h-[13.96px] left-[6.98px] absolute bg-top_collection_strelka_1
+                              max-mobile:w-[4.86px] max-mobile:h-[9.71px] max-mobile:left-[4.85px]'></div>
             </div>
           </div>
         </div>
