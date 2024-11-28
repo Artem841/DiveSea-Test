@@ -16,8 +16,8 @@ module.exports = {
         'bla': '#141416',
       },
       screens:{
-        'max-mobile': {'max':'400px'},
-        'min-mobile': {'min':'400px'}
+        'max-mobile': {'max':'375px'},
+        'min-mobile': {'min':'375px'}
       },
     },
   },

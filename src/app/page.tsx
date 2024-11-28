@@ -3,60 +3,50 @@ import React from 'react';
 export default function ImageComponent() {
   return (
     <div className='bg-mywhite'>
-      {/*Start - MENU*/}
-      <header className='flex flex-row w-[1251px] h-[58px] pt-[45px] ml-[93px]
-                         max-mobile:w-[317px] max-mobile:h-[76px] max-mobile:pt-[30px] max-mobile:ml-[28px] max-mobile:flex max-mobile:flex-col'>
-        {/*Start - Logo with Name and Menu*/}
-        <div className='max-mobile:flex max-mobile:flex-row'>
-          {/*Start - Logo with Name*/}
-          <div className='max-mobile:w-[141.46px] max-mobile:h-[46.41px] max-mobile:flex max-mobile:flex-row'>
-            {/*Start - Logo*/}
-            <div className='bg-logo w-[53px] h-[53px] min-mobile:mt-[3px]
-                            max-mobile:w-[46.41px] max-mobile:h-[46.41px]'></div>
-            {/*End - Logo*/}
-            {/* Start - Name */}
-            <div className='min-mobile:hidden w-[88px] h-[28px] mt-[9.85px] ml-[7.05px]'>
-              <p className='w-[88px] h-[28px] font-[600] text-[21.36px] leading-[27.77px] text-[#000000]'>DiveSea</p>
-            </div>
-            {/*End - Name*/}
-          </div>
-          {/*End - Logo with Name*/}
-          {/*Start - Menu*/}
-          <div className='min-mobile:hidden w-[31.5px] h-[22.33px] ml-[141.79px] mt-[12px] bg-lines_3'></div>
-          {/*End - Menu*/}
-        </div>
-        {/*End - Logo with Name and Menu*/}
-        {/*Start - Line*/}
-        <div className='min-mobile:hidden w-[314px] h-[0.5px] ml-[3px] mt-[29.59px] bg-[#CBCBCB]'></div>
-        {/*End - Line*/}
-        {/*Start - Navigation*/}
-        <nav className='flex flex-row gap-[53.49px] w-[445.46px] h-[27px] mt-[16px] ml-[57.06px]
-                        max-mobile:hidden'>
-          <p className='uppercase w-[91px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Discover</p>
-          <p className='uppercase w-[95px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Creators</p>
-          <p className='uppercase w-[43px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Sell</p>
-          <p className='uppercase w-[56px] h-[27px] text-[#606060] text-[17.83px] leading-[26.74px] font-medium'>Stats</p>
-        </nav>
-        {/*End - Navigation*/}
-        {/*Start - Search Field*/}
-        <div className='bg-[#EDEDED] w-[348.45px] h-[57px] mt-[1px] ml-[117.48px] rounded-[14.88px]
-                        max-mobile:hidden'>
-          <div className='w-[244.23px] h-[21.51px] mt-[18px] ml-[22.58px] flex flex-row'>
-            <div className='bg-magnifier w-[21.51px] h-[21.51px]'></div>
-            <p className='mt-[1.08px] ml-[25.72px] text-[15.71px] text-[#C2C3CB] leading-[18.46px] font-medium'>Search Art Work / Creator </p>
-          </div>
-        </div>
-        {/*End - Search Field*/}
-        {/*Start - Wallet Connection Button*/}
-        <button className='bg-black w-[199.52px] h-[57.34px] ml-[30.03px] rounded-[16.17px] flex justify-center items-center
-                           max-mobile:hidden'>
-          <p className='uppercase text-[16.17px] text-whi leading-[24.26px] font-[600]'>Connect Wallet</p>
-        </button>
-        {/*End - Wallet Connection Button*/}
-      </header>
-      {/*End - MENU*/}
-
+      <div className='overflow-hidden'>
+      <div className='m-auto max-w-[1440px] bg-mywhite
+                      max-mobile:max-w-[375px]'>
       {/*Start - HEADER*/}
+      <header className='h-[58px] flex flex-col pt-[45px] ml-[93px] justify-between
+                         max-mobile:h-[106px] max-mobile:pt-[30px] max-mobile:ml-[28px]'>
+        <div className='w-auto h-[58px] flex flex-row justify-between items-center
+                        max-mobile:h-[46.41px]'>
+          <div className='w-[555.52px] h-[53px] flex flex-row justify-between items-center
+                          max-mobile:w-[141.46px]'>
+            <div className='w-[53px] h-[53px] bg-logo
+                            max-mobile:w-[46.41px] max-mobile:h-[46.41px]'></div>
+            <div className='w-[445.46px] h-[27px] flex flex-row justify-between items-center
+                            max-mobile:hidden'>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Discover</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Creators</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Sell</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Stats</p>
+            </div>
+            <p className='min-mobile:hidden
+                          font-[600] text-[21.36px] leading-[27.77px]'>DiveSea</p>
+          </div>
+          <div className='w-[578px] h-[57.34px] flex flex-row justify-between items-center
+                          max-mobile:w-auto h-[46.41px]'>
+            <div className='w-[348.45px] h-[57px] bg-[#EDEDED] rounded-[14.88px] flex flex-row justify-between items-center
+                            max-mobile:hidden'>
+              <div className='w-[244.23px] h-[21.51px] flex flex-row justify-between items-center ml-[22.58px]'>
+                <div className='w-[21.51px] h-[21.51px] bg-magnifier'></div>
+                <p className='font-[500] text-[15.71px] leading-[18.46px] text-[#C2C3CB]'>Search Art Work / Creator</p>
+              </div>
+            </div>
+            <button className='w-[199.52px] h-[57.34px] rounded-[16.17px] min-mobile:bg-bla
+                               max-mobile:w-[31.5px] max-mobile:h-[22.33px] max-mobile:rounded-[0px] bg-lines_3'>
+              <p className='uppercase text-whi font-[600] text-[16.17px] leading-[24.26px]
+                            max-mobile:hidden'>Connect Wallet</p>
+            </button>
+          </div>
+        </div>
+        <div className='w-[314px] min-h-[0.5px] bg-[#CBCBCB]
+                        min-mobile:hidden'></div>
+      </header>
+      {/*End - HEADER*/}
+
+      {/*Start - HERO*/}
       <div className='flex flex-row mt-[99px] ml-[97px]
                       max-mobile:w-[400px] max-mobile:h-[666.4px] max-mobile:mt-[74px] max-mobile:ml-[30px] max-mobile:flex-col'>
         {/*Start - 1 Secondary Block*/}
@@ -189,7 +179,7 @@ export default function ImageComponent() {
         </div>
         {/*End - 2 Secondary Block*/}
       </div>
-      {/*End - HEADER*/}
+      {/*End - HERO*/}
 
       {/*Start - WEEKLY*/}
       <div className='w-[1565px] h-[989px] mt-[143.01px] relative
@@ -1489,6 +1479,8 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - FOOTER*/}
+        </div>
+        </div>
     </div>
   )
 }
