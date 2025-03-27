@@ -1407,31 +1407,31 @@ export default function ImageComponent() {
         {/*End - UNLEASH*/}
 
         {/*Start - BANNER*/}
-        <div className='w-[1245px] h-[311px] mt-[180.92px] ml-[97px]
+        <div className='h-[311px] mt-[180.92px] ml-[97px]
                         max-mobile:w-[315px] max-mobile:h-[302px] max-mobile:mt-[121px] max-mobile:ml-[27px]'>
-          <div className='w-[1245px] h-[311px] flex flex-row rounded-[30px] bg-bla
+          <div className='w-[89%] h-[311px] flex flex-row rounded-[30px] bg-bla flex justify-between
                           max-mobile:w-[315px] max-mobile:h-[211px] max-mobile:flex-col max-mobile:rounded-[14.87px]'>
-            <div className='w-[476px] h-[214.98px] mt-[44.22px] ml-[66px] flex flex-col
+            <div className='h-[214.98px] mt-[44.22px] ml-[66px] flex flex-col
                             max-mobile:w-[236px] max-mobile:h-[106.53px] max-mobile:mt-[21.91px] max-mobile:ml-[39.16px] max-mobile:items-center'>
-              <p className='font-[600] text-[45px] leading-[58.5px] tracking-[1%] text-whi
+              <p className='font-[600] text-[45px] leading-[58.5px] tracking-[1%] text-whi whitespace-nowrap
                             max-mobile:text-[22.3px] max-mobile:leading-[28.99px]'>Create and Sell NFTs</p>
               <p className='font-[500] text-[20.27px] leading-[26.35px] text-[#D4D4D4]/60 mt-[12.48px] tracking-[1%]
                             max-mobile:text-[10.04px] max-mobile:leading-[13.05px] max-mobile:mt-[5.93px]'>World&apos;s Largest NFT Place</p>
-              <div className='w-[396.62px] h-[67.66px] gap-[30.51px] mt-[50.84px] flex flex-row
+              <div className='w-[97%] h-[67.66px] mt-[50.84px] flex flex-row justify-between
                               max-mobile:w-[196.54px] max-mobile:h-[33.53px] max-mobile:gap-[15.12px] max-mobile:mt-[25.08px]'>
-                <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] gap-[15.25px] bg-whi flex justify-center items-center
+                <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] bg-whi flex justify-center items-center
                                    max-mobile:w-[90.71px] max-mobile:h-[33.65px] max-mobile:rounded-[6.05px] max-mobile:gap-[7.56px]'>
                   <p className='font-[600] text-[21.36px] leading-[27.76px] tracking-[1%] text-bla
                                 max-mobile:text-[10.58px] max-mobile:leading-[13.76px]'>Explore More</p>
                 </button>
-                <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] border-[2.29px] border-whi gap-[15.25px] flex justify-center items-center
+                <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] border-[2.29px] border-whi flex justify-center items-center
                                    max-mobile:w-[90.71px] max-mobile:h-[33.65px] max-mobile:rounded-[6.05px] max-mobile:border-[1.13px] max-mobile:gap-[7.56px]'>
                   <p className='font-[600] text-[21.36px] leading-[27.76px] tracking-[1%] text-whi
                                 max-mobile:text-[10.58px] max-mobile:leading-[13.76px]'>Sell Artwork</p>
                 </button>
               </div>
             </div>
-            <div className='w-[390px] h-[264px] mt-[31px] ml-[291px] relative
+            <div className='w-[390px] h-[264px] mt-[31px] mr-[22px] relative
                             max-mobile:w-[266.98px] max-mobile:h-[137px] max-mobile:mt-[36.56px] max-mobile:ml-[22px]'>
               <div className='w-[390px] h-[249px] rounded-[7.55px] bg-banner_image_1_op absolute top-[15px]
                               max-mobile:w-[266.98px] max-mobile:h-[129.22px] max-mobile:rounded-[4.4px] max-mobile:top-[7.78px]'></div>
