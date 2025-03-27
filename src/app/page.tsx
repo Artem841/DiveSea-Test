@@ -15,7 +15,7 @@ export default function ImageComponent() {
                           max-mobile:w-[141.46px]'>
             <div className='w-[53px] h-[53px] bg-logo
                             max-mobile:w-[46.41px] max-mobile:h-[46.41px]'></div>
-            <div className='w-[445.46px] h-[27px] flex flex-row justify-between items-center
+            <div className='w-[80%] h-[27px] flex flex-row justify-between items-center
                             max-mobile:hidden'>
               <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Discover</p>
               <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Creators</p>
@@ -737,7 +737,7 @@ export default function ImageComponent() {
           {/*End - User 4*/}
           {/*End - Users*/}
           <div className='w-[120.79px] h-[40px] ml-[90%] mt-[6%] flex flex-row justify-between items-center
-                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[116px] max-mobile:mt-[41px]'>
+                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[40%] max-mobile:mt-[10%]'>
             <p className='font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]
                           max-mobile:text-[12.29px] max-mobile:leading-[27.76px]'>Explore All</p>
             <div className='w-[13.96] h-[13.96px] flex flex-row relative
@@ -751,17 +751,17 @@ export default function ImageComponent() {
         </div>
         {/*End - TOP COLLECTION*/}
         {/*Start - EXPLORE*/}
-        <div className='w-[1248.09px] h-[1268px] mt-[100px] ml-[96px] flex flex-col
+        <div className='mt-[100px] ml-[96px] mr-[96px] flex flex-col items-center
                         max-mobile:w-[289.62px] max-mobile:h-[2024px] max-mobile:mt-[100px] max-mobile:ml-[43px]'>
-          <p className='font-[600] text-[45px] leading-[26.92px] text-center
+          <p className='font-[600] text-[45px] leading-[26.92px]
                         max-mobile:text-[30px] max-mobile:leading-[37.5px] max-mobile:break-word'>Explore <br className='min-mobile:hidden' /> Marketplace</p>
-          <div className='w-[545.8px] h-[57.72px] ml-[351px] mt-[65px] flex flex-row justify-between
+          <div className='w-[42%] mt-[65px] flex flex-row justify-between
                           max-mobile:w-[289.62px] max-mobile:h-[37px] max-mobile:ml-[0] max-mobile:mt-[30px]'>
-            <button className='max-mobile:hidden w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex justify-center items-center'>
+            <button className='max-mobile:hidden min-w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla flex justify-center items-center'>
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>All</p>
             </button>
-            <button className='w-[137.04px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] justify-center items-center flex flex-row
-                               max-mobile:w-[87.85px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px] max-mobile:gap-[5.67px]'>
+            <button className='min-w-[137.04px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla justify-center items-center flex flex-row
+                               max-mobile:w-[87.85px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
               <div className='w-[25.19px] h-[25.19px] flex justify-center items-center
                               max-mobile:w-[16.15px] max-mobile:-[16.15px]'>
                 <div className='w-[16.67px] h-[20.99px] bg-explore_list
@@ -770,8 +770,8 @@ export default function ImageComponent() {
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
                             max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Category</p>
             </button>
-            <button className='w-[145.88px] h-[56.2px] rounded-[13.26px] gap-[8.84px] border-[2.21px] border-bla flex flex-row justify-center items-center
-                               max-mobile:w-[93.52px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:gap-[5.67px max-mobile:border-[1.42px]'>
+            <button className='min-w-[145.88px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla flex flex-row justify-center items-center
+                               max-mobile:w-[93.52px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
               <div className='w-[25.19px] h-[25.19px] flex justify-center items-center
                               max-mobile:w-[16.15px] max-mobile:h-[16.15px]'>
                 <div className='w-[20.99px] h-[20.99px] bg-explore_collection
@@ -780,8 +780,8 @@ export default function ImageComponent() {
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
                             max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Collection</p>
             </button>
-            <button className='w-[124.88px] h-[57.72px] rounded-[13.26px] border-[2.21px] border-bla gap-[8.84px] flex flex-row justify-center items-center
-                               max-mobile:w-[80.05px] max-mobile:h-[37px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px] max-mobile:gap-[5.67px]'>
+            <button className='min-w-[124.88px] h-[57.72px] rounded-[13.26px] border-[2.21px] border-bla flex flex-row justify-center items-center
+                               max-mobile:w-[80.05px] max-mobile:h-[37px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
               <div className='w-[25.19px] h-[25.19px] bg-explore_dollar
                               max-mobile:w-[16.15px] max-mobile:h-[16.15px]'></div>
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
@@ -789,12 +789,10 @@ export default function ImageComponent() {
             </button>
           </div>
           {/*Start - First Row of Cards*/}
-          <div className='w-[1248px] h-[403.56px] mt-[100.28px]
-                          max-mobile:w-[283.46px] max-mobile:h-[1728px] max-mobile:mt-[75px]'>
-            <div className='w-[1248px] h-[403.56px] flex flex-row justify-between
-                            max-mobile:w-[283.46px] max-mobile:h-[1728px] max-mobile:flex-col'>
+          <div className='w-[100%] h-[403.56px] mt-[100.28px] flex flex-row justify-between
+                          max-mobile:w-[100%] max-mobile:h-[1728px] max-mobile:mt-[75px] max-mobile:flex-col'>
               {/*Start - Card 1*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
@@ -820,7 +818,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 1*/}
               {/*Start - Card 2*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
@@ -846,7 +844,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 2*/}
               {/*Start - Card 3*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
@@ -872,7 +870,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 3*/}
               {/*Start - Card 4*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
@@ -897,14 +895,12 @@ export default function ImageComponent() {
                 </div>
               </div>
               {/*End - Card 4*/}
-            </div>
           </div>
           {/*End - First Row of Cards*/}
           {/*Start - Second Row of Cards*/}
-          <div className='w-[1248px] h-[403.56px] mt-[100.28px] max-mobile:hidden'>
-            <div className='w-[1248px] h-[403.56px] flex flex-row-reverse justify-between'>
+          <div className='w-[100%]  h-[403.56px] mt-[100.28px] flex flex-row-reverse justify-between max-mobile:hidden'>
               {/*Start - Card 1*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
@@ -930,7 +926,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 1*/}
               {/*Start - Card 2*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_2'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
@@ -956,7 +952,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 2*/}
               {/*Start - Card 3*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_4'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>19h 09m 12s</p>
@@ -982,7 +978,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Card 3*/}
               {/*Start - Card 4*/}
-              <div className='w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
+              <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_3'>
                   <div className='bg-[#1C1D20]/35 w-[116.58px] h-[37.64px] ml-[127.04px] rounded-[9.41px] border-[1.18px] border-[#1C1D20]/8 blur-[4.71] shadow-[0_4.71px_14.12px_0_rgba(28, 29, 32, 0.08)] flex justify-center items-center'>
                     <p className='font-[500] text-[14.12px] leading-[21.17px] text-whi'>07h 09m 12s</p>
@@ -1007,10 +1003,9 @@ export default function ImageComponent() {
                 </div>
               </div>
               {/*End - Card 4*/}
-            </div>
           </div>
           {/*End - Second Row of Cards*/}
-          <div className='w-[120.79px] h-[40px] ml-[1118.43px] mt-[70px] flex flex-row justify-between items-center
+          <div className='w-[120.79px] h-[40px] ml-[90%] mt-[70px] flex flex-row justify-between items-center
                           max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[102px] max-mobile:mt-[50px]'>
             <p className='font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]
                           max-mobile:text-[12.29px] max-mobile:leading-[27.76px]'>Explore All</p>
@@ -1417,7 +1412,7 @@ export default function ImageComponent() {
               <p className='font-[600] text-[45px] leading-[58.5px] tracking-[1%] text-whi
                             max-mobile:text-[22.3px] max-mobile:leading-[28.99px]'>Create and Sell NFTs</p>
               <p className='font-[500] text-[20.27px] leading-[26.35px] text-[#D4D4D4]/60 mt-[12.48px] tracking-[1%]
-                            max-mobile:text-[10.04px] max-mobile:leading-[13.05px] max-mobile:mt-[5.93px]'>World's Largest NFT Place</p>
+                            max-mobile:text-[10.04px] max-mobile:leading-[13.05px] max-mobile:mt-[5.93px]'>World&apos;s Largest NFT Place</p>
               <div className='w-[396.62px] h-[67.66px] gap-[30.51px] mt-[50.84px] flex flex-row
                               max-mobile:w-[196.54px] max-mobile:h-[33.53px] max-mobile:gap-[15.12px] max-mobile:mt-[25.08px]'>
                 <button className='w-[183.06px] h-[67.66px] rounded-[12.2px] gap-[15.25px] bg-whi flex justify-center items-center
