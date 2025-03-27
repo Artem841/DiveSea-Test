@@ -507,6 +507,7 @@ export default function ImageComponent() {
         </div>
       </div>
       {/*End - WEEKLY*/}
+      
       {/*Start - TOP COLLECTION*/}
         <div className='mt-[236.41px] mr-[95px] ml-[98px] flex flex-col
                         max-mobile:mt-[77px] max-mobile:mr-[29px] max-mobile:ml-[29px]'>
@@ -750,18 +751,19 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - TOP COLLECTION*/}
+
         {/*Start - EXPLORE*/}
         <div className='mt-[100px] ml-[96px] mr-[96px] flex flex-col items-center
-                        max-mobile:w-[289.62px] max-mobile:h-[2024px] max-mobile:mt-[100px] max-mobile:ml-[43px]'>
+                        max-mobile:mt-[100px] max-mobile:ml-[12%] max-mobile:mr-[43px]'>
           <p className='font-[600] text-[45px] leading-[26.92px]
-                        max-mobile:text-[30px] max-mobile:leading-[37.5px] max-mobile:break-word'>Explore <br className='min-mobile:hidden' /> Marketplace</p>
+                        max-mobile:text-[30px] max-mobile:leading-[37.5px] max-mobile:break-word max-mobile:text-center'>Explore <br className='min-mobile:hidden' /> Marketplace</p>
           <div className='w-[42%] mt-[65px] flex flex-row justify-between
-                          max-mobile:w-[289.62px] max-mobile:h-[37px] max-mobile:ml-[0] max-mobile:mt-[30px]'>
+                          max-mobile:w-[100%] max-mobile:mt-[30px]'>
             <button className='max-mobile:hidden min-w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla flex justify-center items-center'>
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>All</p>
             </button>
             <button className='min-w-[137.04px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla justify-center items-center flex flex-row
-                               max-mobile:w-[87.85px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
+                               max-mobile:min-w-[87.85px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
               <div className='w-[25.19px] h-[25.19px] flex justify-center items-center
                               max-mobile:w-[16.15px] max-mobile:-[16.15px]'>
                 <div className='w-[16.67px] h-[20.99px] bg-explore_list
@@ -771,7 +773,7 @@ export default function ImageComponent() {
                             max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Category</p>
             </button>
             <button className='min-w-[145.88px] h-[56.2px] rounded-[13.26px] border-[2.21px] border-bla flex flex-row justify-center items-center
-                               max-mobile:w-[93.52px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
+                               max-mobile:min-w-[93.52px] max-mobile:h-[36.02px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
               <div className='w-[25.19px] h-[25.19px] flex justify-center items-center
                               max-mobile:w-[16.15px] max-mobile:h-[16.15px]'>
                 <div className='w-[20.99px] h-[20.99px] bg-explore_collection
@@ -781,7 +783,7 @@ export default function ImageComponent() {
                             max-mobile:text-[9.92px] max-mobile:leading-[14.88px]'>Collection</p>
             </button>
             <button className='min-w-[124.88px] h-[57.72px] rounded-[13.26px] border-[2.21px] border-bla flex flex-row justify-center items-center
-                               max-mobile:w-[80.05px] max-mobile:h-[37px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
+                               max-mobile:min-w-[80.05px] max-mobile:h-[37px] max-mobile:rounded-[8.5px] max-mobile:border-[1.42px]'>
               <div className='w-[25.19px] h-[25.19px] bg-explore_dollar
                               max-mobile:w-[16.15px] max-mobile:h-[16.15px]'></div>
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]
@@ -1006,19 +1008,20 @@ export default function ImageComponent() {
           </div>
           {/*End - Second Row of Cards*/}
           <div className='w-[120.79px] h-[40px] ml-[90%] mt-[70px] flex flex-row justify-between items-center
-                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-[102px] max-mobile:mt-[50px]'>
+                          max-mobile:w-[84px] max-mobile:h-[28px] max-mobile:ml-0 max-mobile:mt-[50px]'>
             <p className='font-[500] text-[17.67px] leading-[39.92px] text-[#ACADB9]
                           max-mobile:text-[12.29px] max-mobile:leading-[27.76px]'>Explore All</p>
             <div className='w-[13.96] h-[13.96px] flex flex-row relative
                             max-mobile:w-[9.71px] max-mobile:h-[9.71px]'>
-              <div className='w-[13.96px] h-[2.2px] top-[5.9px] absolute bg-top_collection_strelka_2
-                              max-mobile:w-[9.71px] max-mobile:h-[1.39px] top-[4.2px]'></div>
+              <div className='w-[13.96px] h-[2.2px] top-[6px] absolute bg-top_collection_strelka_2
+                              max-mobile:w-[9.71px] max-mobile:h-[1.39px] max-mobile:top-[4.2px]'></div>
               <div className='w-[7.5px] h-[13.96px] left-[6.98px] absolute bg-top_collection_strelka_1
                               max-mobile:w-[4.86px] max-mobile:h-[9.71px] max-mobile:left-[4.85px]'></div>
             </div>
           </div>
         </div>
         {/*End - EXPLORE*/}
+
         {/*Start - UNLEASH*/}
         <div className='w-[1402.65px] h-[688.08px] flex flex-col justify-between ml-[96px] mt-[103px]
                         max-mobile:w-[400px] max-mobile:h-[545px] max-mobile:ml-[27] max-mobile:mt-[164px]'>
@@ -1402,6 +1405,7 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - UNLEASH*/}
+
         {/*Start - BANNER*/}
         <div className='w-[1245px] h-[311px] mt-[180.92px] ml-[97px]
                         max-mobile:w-[315px] max-mobile:h-[302px] max-mobile:mt-[121px] max-mobile:ml-[27px]'>
@@ -1437,6 +1441,7 @@ export default function ImageComponent() {
           </div>
         </div>
         {/*End - BANNER*/}
+
         {/*Start - FOOTER*/}
         <div className='w-[1440px] h-[345px] mt-[160px] bg-bla flex flex-col
                         max-mobile:w-[375px] max-mobile:h-[426px] max-mobile:mt-[100px]'>
