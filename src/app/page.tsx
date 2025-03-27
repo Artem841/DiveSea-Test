@@ -1408,11 +1408,11 @@ export default function ImageComponent() {
 
         {/*Start - BANNER*/}
         <div className='h-[311px] mt-[180.92px] ml-[97px]
-                        max-mobile:w-[315px] max-mobile:h-[302px] max-mobile:mt-[121px] max-mobile:ml-[27px]'>
+                        max-mobile:h-[302px] max-mobile:mt-[121px] max-mobile:ml-[7%]'>
           <div className='w-[89%] h-[311px] flex flex-row rounded-[30px] bg-bla flex justify-between
-                          max-mobile:w-[315px] max-mobile:h-[211px] max-mobile:flex-col max-mobile:rounded-[14.87px]'>
+                          max-mobile:w-[91%] max-mobile:h-[211px] max-mobile:flex-col max-mobile:rounded-[14.87px]'>
             <div className='h-[214.98px] mt-[44.22px] ml-[66px] flex flex-col
-                            max-mobile:w-[236px] max-mobile:h-[106.53px] max-mobile:mt-[21.91px] max-mobile:ml-[39.16px] max-mobile:items-center'>
+                            max-mobile:h-[106.53px] max-mobile:mt-[21.91px] max-mobile:ml-0 max-mobile:items-center'>
               <p className='font-[600] text-[45px] leading-[58.5px] tracking-[1%] text-whi whitespace-nowrap
                             max-mobile:text-[22.3px] max-mobile:leading-[28.99px]'>Create and Sell NFTs</p>
               <p className='font-[500] text-[20.27px] leading-[26.35px] text-[#D4D4D4]/60 mt-[12.48px] tracking-[1%]
@@ -1443,11 +1443,11 @@ export default function ImageComponent() {
         {/*End - BANNER*/}
 
         {/*Start - FOOTER*/}
-        <div className='w-[1440px] h-[345px] mt-[160px] bg-bla flex flex-col
-                        max-mobile:w-[375px] max-mobile:h-[426px] max-mobile:mt-[100px]'>
-          <div className='w-[1248px] h-[65px] mt-[92px] ml-[96px] flex flex-row justify-between items-center
-                          max-mobile:w-[327px] max-mobile:h-[259.53px] max-mobile:mt-[52px] max-mobile:ml-[27px] max-mobile:flex-col max-mobile:items-start'>
-            <div className='max-mobile:w-[327px] max-mobile:h-[43.47px] max-mobile:flex max-mobile:items-center max-mobile:flex-row'>
+        <div className='h-[345px] mt-[160px] bg-bla flex flex-col
+                        max-mobile:h-[426px] max-mobile:mt-[100px]'>
+          <div className='w-[83%] h-[65px] mt-[92px] ml-[96px] flex flex-row justify-between items-center
+                          max-mobile:h-[259.53px] max-mobile:mt-[52px] max-mobile:ml-[8%] max-mobile:flex-col max-mobile:items-start'>
+            <div className='max-mobile:w-[100%] max-mobile:h-[43.47px] max-mobile:flex max-mobile:items-center max-mobile:flex-row max-mobile:justify-between'>
               <div className='w-[198.88px] h-[65px] flex flex-row justify-between items-center
                               max-mobile:w-[133.08px] max-mobile:h-[43.47px]'>
                 <div className='w-[65px] h-[65px] bg-footer_logo
@@ -1455,7 +1455,7 @@ export default function ImageComponent() {
                 <p className='font-[600] text-[29.92px] leading-[38.9px] text-whi
                               max-mobile:text-[20.01px] max-mobile:leading-[26.02px]'>DiveSea</p>
               </div>
-              <div className='min-mobile:hidden w-[115.21px] h-[16px] flex flex-row justify-between ml-[69.12px]'>
+              <div className='min-mobile:hidden w-[115.21px] h-[16px] flex flex-row justify-between'>
                 <div className='w-[15.94px] h-[16px] bg-footer_insta'></div>
                 <div className='w-[15.94px] h-[15.21px] bg-footer_in'></div>
                 <div className='w-[7.38px] h-[15.94px] bg-footer_facebook'></div>
@@ -1474,9 +1474,9 @@ export default function ImageComponent() {
                             max-mobile:text-[14px] max-mobile:leading-[18.88px] max-mobile:uppercase'>Contact</p>
             </div>
           </div>
-          <div className='w-[1246px] h-[1px] bg-[#818181]/25 mt-[25px] ml-[97px]
+          <div className='w-[83%] h-[1px] bg-[#818181]/25 mt-[25px] ml-[97px]
                           max-mobile:w-[314px] max-mobile:mt-[32.47px] max-mobile:ml-[30px]'></div>
-          <div className='w-[1237.62px] h-[25px] flex flex-row mt-[57px] ml-[103px] justify-between items-center
+          <div className='w-[83%] h-[25px] flex flex-row mt-[57px] ml-[103px] justify-between items-center
                           max-mobile:w-auto max-mobile:h-auto max-mobile:mt-[26px] max-mobile:ml-[67px]'>
             <p className='font-[500] text-[17px] leading-[25px] text-[#999999]
                           max-mobile:text-[13.54px] max-mobile:leading-[19.91px]'>© 2023 EATLY All Rights Reserved.</p>
