@@ -507,7 +507,7 @@ export default function ImageComponent() {
         </div>
       </div>
       {/*End - WEEKLY*/}
-      
+
       {/*Start - TOP COLLECTION*/}
         <div className='mt-[236.41px] mr-[95px] ml-[98px] flex flex-col
                         max-mobile:mt-[77px] max-mobile:mr-[29px] max-mobile:ml-[29px]'>
@@ -1023,16 +1023,16 @@ export default function ImageComponent() {
         {/*End - EXPLORE*/}
 
         {/*Start - UNLEASH*/}
-        <div className='w-[1402.65px] h-[688.08px] flex flex-col justify-between ml-[96px] mt-[103px]
-                        max-mobile:w-[400px] max-mobile:h-[545px] max-mobile:ml-[27] max-mobile:mt-[164px]'>
-          <div className='w-[1248px] h-[0.71px] bg-[#CBCBCB] max-mobile:hidden'></div>
-          <div className='w-[1402.65px] h-[613.08px] flex flex-row
-                          max-mobile:w-[400px] max-mobile:h-[545px] max-mobile:flex-col'>
+        <div className='h-[688.08px] flex flex-col justify-between ml-[96px] mt-[103px]
+                        max-mobile:h-[545px] max-mobile:ml-[0] max-mobile:mt-[164px]'>
+          <div className='w-[94%] h-[0.71px] bg-[#CBCBCB] max-mobile:hidden'></div>
+          <div className='h-[613.08px] justify-between flex flex-row
+                          max-mobile:h-[545px] max-mobile:flex-col max-mobile:items-center'>
             {/*Start - Content*/}
-            <div className='w-[461px] h-[535px] ml-[3px] mt-[41px]
-                            max-mobile:w-auto max-mobile:h-auto max-mobile:mt-0'>
+            <div className='h-[535px] mt-[41px]
+                            max-mobile:h-auto max-mobile:mt-0'>
               <p className='font-[600] text-[45px] leading-[54.4px]
-                            max-mobile:text-[30px] max-mobile:leading-[37.11px] max-mobile:w-[314.51px] max-mobile:text-center'>
+                            max-mobile:text-[30px] max-mobile:leading-[37.11px] max-mobile:text-center'>
                 <span className='text-[#C5C5C5]'>Just Unleash - </span>
                 <br />
                 <span className='text-[#18181B]'>Your Inner Collector</span>
@@ -1072,8 +1072,8 @@ export default function ImageComponent() {
             </div>
             {/*End - Content*/}
             {/*Start - Illustration*/}
-            <div className='w-[836.65px] h-[613.08px] ml-[102px] relative
-                            max-mobile:w-[400px] max-mobile:h-[293.11px] max-mobile:ml-0 max-mobile:mt-[50px]'>
+            <div className='w-[750px] h-[613.08px] relative
+                            max-mobile:w-[400px] max-mobile:h-[293.11px] max-mobile:ml-[20%] max-mobile:mt-[50px]'>
               {/*Start - Background Block*/}
               <div className='w-[399.65px] h-[173px] bg-unleash_points absolute top-[410px] left-[437px]
                               max-mobile:w-[191.07px] max-mobile:h-[82.71px] max-mobile:top-[196.02px] max-mobile:left-[208.93px]'></div>
@@ -1395,7 +1395,7 @@ export default function ImageComponent() {
               </div>
               {/*End - Block 3*/}
             </div>
-            <button className='w-[123.01px] h-[44.25px] rounded-[8.99px] mt-[82.64px] ml-[99px] bg-[#000000] flex justify-center items-center min-mobile:hidden'>
+            <button className='w-[123.01px] h-[44.25px] rounded-[8.99px] mt-[82.64px] bg-[#000000] flex justify-center items-center min-mobile:hidden'>
               <div className='w-[96.38px] h-[16.61px] flex flex-row items-center justify-between'>
                 <p className='text-whi font-[500] text-[11.07px] leading-[13.84px]'>Explore More</p>
                 <div className='w-[16.61px] h-[16.61px] bg-unleash_arrow'></div>
