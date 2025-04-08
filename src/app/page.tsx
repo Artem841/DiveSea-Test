@@ -6,37 +6,54 @@ export default function ImageComponent() {
       <div className='overflow-hidden'>
       {/*Start - HEADER*/}
       <div className='m-auto max-w-[1440px] bg-mywhite
+                      max-tablet:max-w-[1024px]
                       max-mobile:max-w-[375px]'>
       <header className='h-[58px] flex flex-col pt-[45px] ml-[93px] justify-between
+                         max-tablet:h-[41.24px] max-tablet:pt-[32px] max-tablet:ml-[66px]
                          max-mobile:h-[106px] max-mobile:pt-[30px] max-mobile:ml-[28px]'>
         <div className='w-auto h-[58px] flex flex-row justify-between items-center
+                        max-tablet:h-[41.24px]
                         max-mobile:h-[46.41px]'>
           <div className='w-[555.52px] h-[53px] flex flex-row justify-between items-center
+                          max-tablet:w-[395px] max-tablet:h-[37.7px]
                           max-mobile:w-[141.46px]'>
             <div className='w-[53px] h-[53px] bg-logo
+                            max-tablet:w-[37.7px] max-tablet:h-[37.7]
                             max-mobile:w-[46.41px] max-mobile:h-[46.41px]'></div>
             <div className='w-[80%] h-[27px] flex flex-row justify-between items-center
+                            max-tablet:w-[80%] max-tablet:h-[20px]
                             max-mobile:hidden'>
-              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Discover</p>
-              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Creators</p>
-              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Sell</p>
-              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]'>Stats</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]
+                            max-tablet:text-[12.68px] max-tablet:leading-[19px]'>Discover</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]
+                            max-tablet:text-[12.68px] max-tablet:leading-[19px]'>Creators</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]
+                            max-tablet:text-[12.68px] max-tablet:leading-[19px]'>Sell</p>
+              <p className='uppercase font-[500] text-[17.83px] leading-[26.74px] text-[#606060]
+                            max-tablet:text-[12.68px] max-tablet:leading-[19px]'>Stats</p>
             </div>
             <p className='min-mobile:hidden
                           font-[600] text-[21.36px] leading-[27.77px]'>DiveSea</p>
           </div>
           <div className='w-[578px] h-[57.34px] flex flex-row justify-between items-center
+                          max-tablet:w-[411px] max-tablet:h-[41px]
                           max-mobile:w-auto h-[46.41px]'>
             <div className='w-[348.45px] h-[57px] bg-[#EDEDED] rounded-[14.88px] flex flex-row justify-between items-center
+                            max-tablet:w-[247.81px] max-tablet:h-[40.54px] max-tablet:rounded-[10.59px]
                             max-mobile:hidden'>
-              <div className='w-[244.23px] h-[21.51px] flex flex-row justify-between items-center ml-[22.58px]'>
-                <div className='w-[21.51px] h-[21.51px] bg-magnifier'></div>
-                <p className='font-[500] text-[15.71px] leading-[18.46px] text-[#C2C3CB]'>Search Art Work / Creator</p>
+              <div className='w-[244.23px] h-[21.51px] flex flex-row justify-between items-center ml-[22.58px]
+                              max-tablet:w-[173.59px] max-tablet:h-[15.3px] max-tablet:ml-[16.06px]'>
+                <div className='w-[21.51px] h-[21.51px] bg-magnifier
+                                max-tablet:w-[15.3px] max-tablet:h-[15.3px]'></div>
+                <p className='font-[500] text-[15.71px] leading-[117%] text-[#C2C3CB]
+                              max-tablet:text-[11.17px] max-tablet:leading-[117%]'>Search Art Work / Creator</p>
               </div>
             </div>
             <button className='w-[199.52px] h-[57.34px] rounded-[16.17px] min-mobile:bg-bla
+                               max-tablet:w-[142.5px] max-tablet:h-[41px] max-tablet:rounded-[11.5px]
                                max-mobile:w-[31.5px] max-mobile:h-[22.33px] max-mobile:rounded-[0px] bg-lines_3'>
               <p className='uppercase text-whi font-[600] text-[16.17px] leading-[24.26px]
+                            max-tablet:text-[11.5px] leading-[17.25px]
                             max-mobile:hidden'>Connect Wallet</p>
             </button>
           </div>
@@ -757,7 +774,7 @@ export default function ImageComponent() {
                         max-mobile:mt-[100px] max-mobile:ml-[12%] max-mobile:mr-[43px]'>
           <p className='font-[600] text-[45px] leading-[26.92px]
                         max-mobile:text-[30px] max-mobile:leading-[37.5px] max-mobile:break-word max-mobile:text-center'>Explore <br className='min-mobile:hidden' /> Marketplace</p>
-          <div className='w-[42%] mt-[65px] flex flex-row justify-between
+          <div className='w-[545px] mt-[65px] flex flex-row justify-between
                           max-mobile:w-[100%] max-mobile:mt-[30px]'>
             <button className='max-mobile:hidden min-w-[72px] h-[56px] rounded-[13.26px] border-[2.21px] border-bla flex justify-center items-center'>
               <p className='font-[600] text-[15.47px] leading-[23.21px] text-[#1A202C]'>All</p>
@@ -791,7 +808,7 @@ export default function ImageComponent() {
             </button>
           </div>
           {/*Start - First Row of Cards*/}
-          <div className='w-[100%] h-[403.56px] mt-[100.28px] flex flex-row justify-between
+          <div className='w-[100%] mt-[100.28px] flex flex-row justify-between
                           max-mobile:w-[100%] max-mobile:h-[1728px] max-mobile:mt-[75px] max-mobile:flex-col'>
               {/*Start - Card 1*/}
               <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
@@ -900,7 +917,7 @@ export default function ImageComponent() {
           </div>
           {/*End - First Row of Cards*/}
           {/*Start - Second Row of Cards*/}
-          <div className='w-[100%]  h-[403.56px] mt-[100.28px] flex flex-row-reverse justify-between max-mobile:hidden'>
+          <div className='w-[100%] mt-[100.28px] flex flex-row-reverse justify-between max-mobile:hidden'>
               {/*Start - Card 1*/}
               <div className='min-w-[281.13px] h-[402.28px] pt-[14.11px] bg-whi rounded-[23.48px] shadow-[38.82px_11.76px_58.81px_0_rgba(199,199,199,0.6)]'>
                 <div className='w-[252.9px] h-[252.9px] ml-[14.12px] pt-[14.12px] rounded-[18.82px] bg-weekly_card_1'>
