@@ -67,11 +67,14 @@ export default function ImageComponent() {
       {/*Start - HERO*/}
       <div className='w-[100vw] flex items-center justify-center'>
         <div className='w-full max-w-[1440px]
+                        max-tablet:max-w-[1024px]
                         max-mobile:max-w-[375px]'>
-          <div className='flex flex-row pt-[99px] pl-[97px] justify-between
+          <div className='flex flex-row pt-[153px] pl-[97px] justify-between
+                          max-tablet:pt-[108.8px] max-tablet:pl-[69px]
                           max-mobile:pt-[74px] max-mobile:pl-[30px] max-mobile:flex-col max-mobile:min-h-[740.4px]'>
             {/*Start - 1 Secondary Block*/}
             <div className='max-w-[502px] h-[519.92px] flex flex-col justify-between
+                            max-tablet:max-w-[357px] max-tablet:h-[370.25px]
                             max-mobile:max-w-[315.36px] max-mobile:h-[310.61px]'>
               {/*Start - Line with Text and Heading with Description*/}
               <div className='flex flex-col justify-between
@@ -79,8 +82,9 @@ export default function ImageComponent() {
                 <div className='flex flex-col'>
                   {/*Start - Line with Text*/}
                   <div className='max-mobile:h-[11px] max-mobile:flex max-mobile:flex-row max-mobile:justify-center max-mobile:items-center
-                                  min-mobile:w-auto max-mobile:h-auto'>
+                                  min-mobile:w-auto min-mobile:h-auto'>
                     <div className='bg-[#201F1F]/20 w-[195px] h-[1px]
+                                    max-tablet:w-[138.68px] max-tablet:h-[0.71px]
                                     max-mobile:bg-[#8D8C8C] max-mobile:w-[33.29px] max-mobile:h-[0.62px]'>
                     </div>
                     <p className='min-mobile:hidden uppercase font-[600] text-[9.25px] leading-[11.1px] ml-[12.33px] tracking-[1.23px] text-[#8D8C8C]'>Over 1M Creators</p>
@@ -88,13 +92,17 @@ export default function ImageComponent() {
                   {/*End - Line with Text*/}
                   {/*Start - Heading with Description*/}
                   <div className='min-h-[252px] flex flex-col justify-between
+                                  max-tablet:min-h-[179.39px]
                                   max-mobile:min-h-[159.87px]'>
-                    <p className='text-bla text-[75px] font-[600] leading-[90px] tracking-[-3px]
+                    <p className='text-bla text-[75px] font-[600] leading-[120%] tracking-[-3px]
+                                  max-tablet:text-[53.34px] max-tablet:leading-[120%] max-tablet:tracking-[-2.13px]
                                   max-mobile:text-[47.4px] max-mobile:font-[600] max-mobile:leading-[56.88px] max-mobile:tracking-[-1.9px] max-mobile:text-center'>Discover And Create NFTs</p>
                     <div className='flex flex-col'>
                       <p className='text-[#676767] text-[18px] font-[400] leading-[28px]
+                                  max-tablet:text-[12.8px] max-tablet:leading-[19.91px]
                                   max-mobile:text-[11.38px] max-mobile:leading-[17.7px] max-mobile:text-center'>Discover, Create and Sell NFTs On Our NFT Marketplace</p>
                       <p className='text-[#676767] text-[18px] font-[400] leading-[28px]
+                                  max-tablet:text-[12.8px] max-tablet:leading-[19.91px]
                                   max-mobile:text-[11.38px] max-mobile:leading-[17.7px] max-mobile:text-center'> With Over Thousands Of NFTs And Get a <span className='text-bla font-[600] text-justify
                                   max-mobile:text-center'>$20 bonus</span>.</p>
                     </div>
@@ -105,18 +113,24 @@ export default function ImageComponent() {
               {/*End - Line with Text and Heading with Description*/}
               {/*Start - Two Buttons with Reviews*/}
               <div className='h-[212.92px] flex flex-col justify-between
+                              max-tablet:h-[151.92px]
                               max-mobile:h-[91.61px] max-mobile:items-center'>
                 {/*Start - Two Buttons*/}
                 <div className='max-w-[340px] flex flex-row justify-between
+                                max-tablet:max-w-[241.8px]
                                 max-mobile:w-[244px] '>
                     <button className='bg-[#000000] w-[179px] h-[60px] rounded-[12.41px] flex justify-center items-center
+                                       max-tablet:w-[127.3px] max-tablet:h-[42.67px] max-tablet:rounded-[8.83px]
                                        max-mobile:w-[128px] max-mobile:h-[47px] max-mobile:rounded-[8.89px]'>
-                      <p className='uppercase text-[#FFFFFF] text-[16.27px] leading-[24.41px] tracking-[1%] font-[500]
+                      <p className='uppercase text-[#FFFFFF] text-[16.27px] leading-[100%] tracking-[1%] font-[500]
+                                    max-tablet:text-[11.57px]
                                     max-mobile:text-[11.66px] max-mobile:leading-[17.49px]'>Explore More</p>
                     </button>
                     <button className='w-[138px] h-[60px] rounded-[12.41px] border-[1.5px] border-[#000000] flex justify-center items-center
+                                       max-tablet:w-[98.14px] max-tablet:h-[42.67px] max-tablet:rounded-[8.83px] max-tablet:border-[1.07px]
                                        max-mobile:w-[99px] max-mobile:h-[47px] max-mobile:rounded-[8.89px] max-mobile:border-[1.07px]'>
-                      <p className='uppercase font-[500] text-[16.27px] text-[#000000] leading-[24.41px] tracking-[1%]
+                      <p className='uppercase font-[500] text-[16.27px] text-[#000000] leading-[100%] tracking-[1%]
+                                    max-tablet:text-[11.57px]
                                     max-mobile:text-[11.66px] max-mobile:leading-[17.49px]'>create NFT</p>
                     </button>
                 </div>
@@ -125,26 +139,35 @@ export default function ImageComponent() {
                 <div className='flex flex-col justify-end'>
                 <div className='flex flex-row justify-between'>
                   <div className='max-h-[70.92px] flex flex-col justify-between
+                                  max-tablet:max-h-[50.93px]
                                   max-mobile:max-h-[24.18px]'>
                     <p className='font-[600] text-[36.77px] leading-[45.96px] text-bla
+                                  max-tablet:text-[26.15px] max-tablet:leading-[32.69px]
                                   max-mobile:hidden'>430K+</p>
                     <p className='font-[500] text-[12.26px] leading-[18.39px] text-[#848586]
+                                  max-tablet:text-[8.72px] max-tablet:leading-[13.08px]
                                   max-mobile:hidden'>Art Works</p>
                     <div className='min-mobile:hidden w-[98.48px] h-[24.18px] bg-reviews_1'></div>
                   </div>
                   <div className='max-h-[70.92px] flex flex-col justify-between
+                                  max-tablet:max-h-[50.93px]
                                   max-mobile:max-h-[12.24px] max-mobile:ml-[16.01px] max-mobile:mt-[8.81px]'>
                     <p className='font-[600] text-[36.77px] leading-[45.96px] text-bla
+                                  max-tablet:text-[26.15px] max-tablet:leading-[32.69px]
                                   max-mobile:hidden'>159K+</p>
                     <p className='font-[500] text-[12.26px] leading-[18.39px] text-[#848586]
+                                  max-tablet:text-[8.72px] max-tablet:leading-[13.08px]
                                   max-mobile:hidden'>Creator</p>
                     <div className='min-mobile:hidden w-[76.69px] h-[12.24px] bg-reviews_2'></div>
                   </div>
                   <div className='max-h-[70.92px] flex flex-col justify-between
+                                  max-tablet:max-h-[50.93px]
                                   max-mobile:w-[43px] max-mobile:h-[20px] max-mobile:ml-[7.38px] max-mobile:mt-[5.6px]'>
                     <p className='font-[600] text-[36.77px] leading-[45.96px] text-bla
+                                  max-tablet:text-[26.15px] max-tablet:leading-[32.69px]
                                   max-mobile:hidden'>87K+</p>
                     <p className='font-[500] text-[12.26px] leading-[18.39px] text-[#848586]
+                                  max-tablet:text-[8.72px] max-tablet:leading-[13.08px]
                                   max-mobile:hidden'>Collections</p>
                     <p className='min-mobile:hidden font-[500] text-[12.81px] leading-[19.22px] text-[#6E7886]/70 text-center'>4900+</p>
                   </div>
@@ -154,40 +177,52 @@ export default function ImageComponent() {
               </div>
               {/*End - Two Buttons with Reviews*/}
             </div>
-
             {/*End - 1 Secondary Block*/}
             {/*Start - 2 Secondary Block*/}
-            <div className='w-[780px] h-[553.99px] flex flex-row justify-between mr-[-30px]
+            <div className='w-[780px] h-[554px] flex flex-row justify-between mr-[-30px]
+                            max-tablet:w-[555px] max-tablet:h-[394px]
                             max-mobile:w-[400px] max-mobile:h-[295.4px]'>
               {/*Start - Image 1 and Arrows*/}
               <div className='flex flex-col items-center justify-between'>
                 {/*Start - Image 1*/}
-                <div className='flex flex-col mt-[19px] max-mobile:mt-[10.13px]'>
+                <div className='flex flex-col mt-[19px]
+                                max-tablet:mt-[13.51px]
+                                max-mobile:mt-[10.13px]'>
                   <div className='w-[391px] h-[418.5px] relative
+                                  max-tablet:w-[278px] max-tablet:h-[297px]
                                   max-mobile:w-[208.49px] max-mobile:h-[223.16px]'>
                     <div className='w-[391px] h-[394.59px] top-[23.91px] rounded-[11.96px] bg-image_1_op absolute
+                                    max-tablet:w-[278px] max-tablet:h-[280px] max-tablet:top-[17px] max-tablet:rounded-[8.5px]
                                     max-mobile:w-[208.49px] max-mobile:h-[210.4px] max-mobile:top-[12.75px] max-mobile:rounded-[6.38px]'></div>
                     <div className='w-[391px] h-[394.59px] rounded-[25px] bg-image_1 absolute
+                                    max-tablet:w-[278px] max-tablet:h-[280px] max-tablet:rounded-[18px]
                                     max-mobile:w-[208.49px] max-mobile:h-[210.4px] max-mobile:rounded-[13.33px]'></div>
                   </div>
                 </div>
                 {/*End - Image 1*/}
                 {/*Start - Arrows*/}
-                <div className='bg-[#FCFCFD] w-[166px] h-[68.99px] mt-[47.5px] rounded-[17.25px] p-[21.56px] gap-[10.78px] flex justify-center items-center shadow-[0_43.12px_34.49px_-25.87px_rgba(15,15,15,0.12)]
-                                max-mobile:w-[88.51px] max-mobile:h-[36.79px] max-mobile:mt-[0px] max-mobile:rounded-[9.2px] max-mobile:p-[11.5px] max-mobile:gap-[5.75px] max-mobile:shadow-[0_22.99px_18.39px_-13.79px_rgba(15,15,15,0.12)]'>
-                  <div className='w-[122.88px] h-[25.87px] gap-[34.49px] flex flex-row
-                                  max-mobile:w-[65.52px] max-mobile:h-[13.79px] max-mobile:gap-[18.39px]'>
-                    <button className='w-[25.87px] h-[25.87px]
-                                    max-mobile:w-[13.79px] max-mobile:h-[13.79px]'>
-                      <div className='w-[15.09px] h-[9.7px] mt-[7.55px] ml-[5.39px] bg-left_arrow_1
-                                      max-mobile:w-[8.05px] max-mobile:h-[5.17px] max-mobile:mt-[4.02px] max-mobile:ml-[2.87px]'></div>
+                <div className='bg-[#FCFCFD] w-[166px] h-[69px] mt-[47.5px] rounded-[17.25px] p-[21.56px] flex justify-center items-center shadow-[0_43.12px_34.49px_-25.87px_rgba(15,15,15,0.12)]
+                                max-tablet:w-[118px] max-tablet:h-[49px] max-tablet:mt-[33.8px] max-tablet:rounded-[12.27px] max-tablet:p-[15px] max-tablet:shadow-[0_30.66px_24.53px_-18.4px_rgba(15,15,15,0.12)]
+                                max-mobile:w-[88.51px] max-mobile:h-[36.79px] max-mobile:mt-[0px] max-mobile:rounded-[9.2px] max-mobile:p-[11.5px] max-mobile:shadow-[0_22.99px_18.39px_-13.79px_rgba(15,15,15,0.12)]'>
+                  <div className='w-[123px] h-[26px] flex flex-row justify-between items-center
+                                  max-tablet:w-[87px] max-tablet:h-[18px]
+                                  max-mobile:w-[65px] max-mobile:h-[14px]'>
+                    <button className='w-[26px] h-[26px] flex justify-center items-center
+                                       max-tablet:w-[18px] max-tablet:h-[18px]
+                                       max-mobile:w-[14px] max-mobile:h-[14px]'>
+                      <div className='w-[15px] h-[9.7px] bg-left_arrow_1
+                                      max-tablet:w-[10.7px] max-tablet:h-[7px]
+                                      max-mobile:w-[8px] max-mobile:h-[5px]'></div>
                     </button>
-                    <div className='bg-[#E6E8EC] w-[2.16px] h-[25.87px] rounded-[2.16px]
-                                    max-mobile:w-[1.15px] max-mobile:h-[13.79px] max-mobile:rounded-[1.15px]'></div>
-                    <button className='w-[25.87px] h-[25.87px]
-                                    max-mobile:w-[13.79px] max-mobile:h-[13.79px]'>
-                      <div className='w-[15.09px] h-[9.7px] mt-[7.55px] ml-[5.39px] bg-right_arrow_1
-                                      max-mobile:w-[8.05px] max-mobile:h-[5.17px] max-mobile:mt-[4.02px] max-mobile:ml-[2.87px]'></div>
+                    <div className='bg-[#E6E8EC] w-[2px] h-[26px] rounded-[2px]
+                                    max-tablet:w-[1.5px] max-tablet:h-[18px] max-tablet:rounded-[1.5px]
+                                    max-mobile:w-[1px] max-mobile:h-[14px] max-mobile:rounded-[1px]'></div>
+                    <button className='w-[26px] h-[26px] flex justify-center items-center
+                                       max-tablet:w-[18px] max-tablet:h-[18px]
+                                       max-mobile:w-[14px] max-mobile:h-[14px]'>
+                      <div className='w-[15px] h-[9.7px] bg-right_arrow_1
+                                      max-tablet:w-[10.7px] max-tablet:h-[7px]
+                                      max-mobile:w-[8px] max-mobile:h-[5px]'></div>
                     </button>
                   </div>
                 </div>
@@ -195,18 +230,24 @@ export default function ImageComponent() {
               </div>
               {/*End - Image 1 and Arrows*/}
               {/*Start - Image 2 and Twisted Arrow*/}
-              <div className='w-[364.81px] h-[543px] relative
-                              max-mobile:w-[193.78px] max-mobile:h-[289.54px]'>
-                <div className='w-[128.78px] h-[124.22px] bg-twisted_arrow rotate-[3.08deg] absolute left-[22px] top-[60px]
-                                max-mobile:w-[58.79px] max-mobile:h-[56.71px] max-mobile:left-[9.73px] max-mobile:top-[45.51px]'></div>
-                <div className='w-[173px] h-[399.65px] bg-points absolute left-[216px]
-                                max-mobile:w-[92.25px] max-mobile:h-[213.1px] max-mobile:left-[75px]'></div>
-                <div className='w-[320.48px] h-[343px] absolute left-[38.67px] top-[200px] relative flex felx-col justify-center
-                                max-mobile:w-[170.89px] max-mobile:h-[182.89px] max-mobile:left-[20.62px] max-mobile:top-[106.65px]'>
-                  <div className='w-[315.37px] h-[318.26px] top-[24.74px] rounded-[11.96px] bg-image_2_op absolute
-                                  max-mobile:w-[168.16px] max-mobile:h-[169.7px] max-mobile:top-[13.19px] max-mobile:rounded-[5.14px]'></div>
-                  <div className='w-[319.16px] h-[322.08px] rounded-[22.35px] bg-image_2 absolute
-                                  max-mobile:w-[170.18px] max-mobile:h-[171.74px] max-mobile:rounded-[11.92px]'></div>
+              <div className='w-[365px] h-[543px] relative
+                              max-tablet:w-[260px] max-tablet:h-[386px]
+                              max-mobile:w-[194px] max-mobile:h-[290px]'>
+                <div className='w-[128px] h-[124px] bg-twisted_arrow rotate-[3deg] absolute top-[60px]
+                                max-tablet:w-[92px] max-tablet:h-[88px] max-tablet:top-[43px]
+                                max-mobile:w-[59px] max-mobile:h-[57px] max-mobile:top-[45.5px]'></div>
+                <div className='w-[173px] h-[400px] bg-points absolute left-[194px]
+                                max-tablet:w-[123px] max-tablet:h-[284px] max-tablet:left-[138px]
+                                max-mobile:w-[92px] max-mobile:h-[213px] max-mobile:left-[65px]'></div>
+                <div className='w-[320px] h-[343px] absolute left-[17px] top-[200px] relative flex felx-col justify-center
+                                max-tablet:w-[228px] max-tablet:h-[244px] max-tablet:left-[12px] max-tablet:top-[142px]
+                                max-mobile:w-[171px] max-mobile:h-[183px] max-mobile:left-[11.6px] max-mobile:top-[107px]'>
+                  <div className='w-[315px] h-[318px] top-[25px] rounded-[12px] bg-image_2_op absolute
+                                  max-tablet:w-[224px] max-tablet:h-[226px] max-tablet:top-[17.6px] max-tablet:rounded-[7px]
+                                  max-mobile:w-[168px] max-mobile:h-[170px] max-mobile:top-[13px] max-mobile:rounded-[5px]'></div>
+                  <div className='w-[319px] h-[322px] rounded-[22px] bg-image_2 absolute
+                                  max-tablet:w-[227px] max-tablet:h-[229px] max-tablet:rounded-[16px]
+                                  max-mobile:w-[170px] max-mobile:h-[172px] max-mobile:rounded-[12px]'></div>
                 </div>
               </div>
               {/*End - Image 2 and Twisted Arrow*/}
